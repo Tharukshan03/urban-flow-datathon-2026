@@ -1,0 +1,101 @@
+pickup_zone_name,dropoff_zone_name,trip_count
+Upper East Side South,Upper East Side North,290297
+Upper East Side North,Upper East Side South,247748
+Upper East Side South,Upper East Side South,202435
+Upper East Side North,Upper East Side North,186379
+Midtown Center,Upper East Side South,135074
+Upper East Side South,Midtown Center,126222
+Midtown Center,Upper East Side North,108494
+Upper East Side South,Midtown East,101001
+Lincoln Square East,Upper West Side South,100044
+Upper West Side South,Upper West Side North,96591
+Upper West Side South,Lincoln Square East,96289
+Upper East Side North,Midtown Center,95524
+Lenox Hill West,Upper East Side North,92618
+JFK Airport,Outside of NYC,92345
+Penn Station/Madison Sq West,Times Sq/Theatre District,88134
+JFK Airport,JFK Airport,87468
+Upper East Side South,Lenox Hill West,86939
+Upper East Side North,Lenox Hill West,86592
+Midtown East,Upper East Side South,85680
+Upper West Side North,Upper West Side South,83032
+Upper East Side North,Upper West Side South,81054
+Midtown Center,Midtown Center,80542
+JFK Airport,Times Sq/Theatre District,80220
+Lincoln Square East,Upper East Side South,79954
+Upper East Side South,Lincoln Square East,79857
+Upper East Side South,Yorkville West,78119
+Midtown Center,Union Sq,77361
+Lenox Hill West,Upper East Side South,76962
+Upper West Side South,Upper East Side North,75887
+Lincoln Square East,Upper West Side North,75608
+Yorkville West,Upper East Side North,75033
+Penn Station/Madison Sq West,Midtown Center,74842
+Lincoln Square East,Upper East Side North,73394
+LaGuardia Airport,Times Sq/Theatre District,72453
+Lenox Hill East,Upper East Side North,72434
+Upper East Side North,Upper West Side North,72057
+Midtown Center,Midtown South,72003
+Upper East Side North,Midtown East,71523
+Midtown North,Upper East Side South,71055
+Upper East Side North,Lincoln Square East,70933
+Midtown East,Upper East Side North,70863
+Upper East Side South,Lenox Hill East,69646
+Yorkville East,Upper East Side North,69080
+Yorkville West,Lenox Hill West,68669
+Clinton East,East Chelsea,68651
+Upper West Side South,Upper West Side South,68203
+Times Sq/Theatre District,Penn Station/Madison Sq West,67437
+Upper East Side North,Yorkville West,67273
+Midtown North,Upper East Side North,67078
+Penn Station/Madison Sq West,Murray Hill,66928
+Union Sq,Murray Hill,66690
+Upper East Side North,Yorkville East,66187
+Penn Station/Madison Sq West,Union Sq,65565
+Gramercy,Murray Hill,64156
+Upper East Side South,Upper West Side South,63922
+Upper East Side South,Midtown North,63359
+Lenox Hill East,Upper East Side South,62964
+Upper East Side North,Lenox Hill East,62918
+Upper West Side North,Lincoln Square East,61820
+Midtown Center,Midtown North,61441
+Midtown Center,Times Sq/Theatre District,61107
+Upper East Side South,Sutton Place/Turtle Bay North,61063
+Upper West Side North,Upper East Side North,60493
+Midtown North,Midtown Center,60382
+Midtown Center,Penn Station/Madison Sq West,59387
+Midtown Center,Lenox Hill West,59283
+Midtown Center,Murray Hill,59226
+Lenox Hill West,Yorkville West,59224
+Midtown East,Lenox Hill West,59063
+Lincoln Square East,Lincoln Square East,58712
+Lincoln Square East,Midtown Center,58534
+Lenox Hill West,Lenox Hill West,58269
+East Chelsea,East Chelsea,57865
+Upper East Side South,Yorkville East,56483
+Upper East Side North,East Harlem South,56243
+Yorkville West,Upper East Side South,56237
+West Village,East Village,56151
+Upper West Side South,Upper East Side South,56117
+Midtown South,Midtown Center,56116
+Midtown Center,Lincoln Square East,55132
+East Village,East Village,55076
+Clinton East,Clinton East,54838
+Midtown East,Murray Hill,54578
+Lincoln Square East,Midtown North,53976
+Murray Hill,Union Sq,53874
+Lincoln Square East,Clinton East,53548
+East Village,Murray Hill,53346
+Times Sq/Theatre District,Times Sq/Theatre District,53325
+East Chelsea,Clinton East,52672
+Times Sq/Theatre District,East Chelsea,52453
+Times Sq/Theatre District,Midtown Center,52416
+Upper East Side North,Midtown North,52415
+Lenox Hill West,Sutton Place/Turtle Bay North,52278
+Sutton Place/Turtle Bay North,Upper East Side South,52064
+Union Sq,Midtown Center,51978
+Upper West Side South,Lincoln Square West,51944
+East Chelsea,Times Sq/Theatre District,51434
+Murray Hill,Midtown Center,50862
+Times Sq/Theatre District,Lincoln Square East,50796
+Midtown Center,East Chelsea,50582

@@ -1,0 +1,98 @@
+{
+  "total_rows": 45533334,
+  "null_timestamps": 0,
+  "unparseable_timestamps": 0,
+  "invalid_timestamps": 0,
+  "min_pickup_timestamp": "2025-04-01 00:00:00",
+  "max_pickup_timestamp": "2026-03-31 23:59:59",
+  "invalid_timestamp_percent": 0.0,
+  "unique_pickup_zones": 260,
+  "unique_pickup_boroughs": 7,
+  "null_pickup_zone_name": 68352,
+  "null_pickup_borough_name": 20707,
+  "null_dropoff_zone_name": 82030,
+  "null_dropoff_borough_name": 211432,
+  "outputs": [
+    {
+      "path": "data/processed/member3_hourly_demand.parquet",
+      "rows": 1442391,
+      "bytes": 2404708
+    },
+    {
+      "path": "data/processed/member3_top_zone_hourly.parquet",
+      "rows": 87600,
+      "bytes": 182251
+    },
+    {
+      "path": "data/processed/member3_od_zone_pairs.parquet",
+      "rows": 55182,
+      "bytes": 140882
+    },
+    {
+      "path": "data/processed/member3_od_borough_pairs.parquet",
+      "rows": 64,
+      "bytes": 1186
+    },
+    {
+      "path": "data/processed/member3_od_zone_time.parquet",
+      "rows": 183686,
+      "bytes": 393098
+    },
+    {
+      "path": "data/processed/member3_od_borough_time.parquet",
+      "rows": 251,
+      "bytes": 1904
+    },
+    {
+      "path": "reports/member3_top_zones.csv",
+      "rows": 10,
+      "bytes": 336
+    },
+    {
+      "path": "reports/member3_demand_by_hour.csv",
+      "rows": 24,
+      "bytes": 298
+    },
+    {
+      "path": "reports/member3_demand_by_weekday.csv",
+      "rows": 7,
+      "bytes": 168
+    },
+    {
+      "path": "reports/member3_pickup_zone_totals.csv",
+      "rows": 261,
+      "bytes": 6124
+    },
+    {
+      "path": "reports/member3_pickup_borough_totals.csv",
+      "rows": 8,
+      "bytes": 155
+    },
+    {
+      "path": "reports/member3_od_zone_pairs.csv",
+      "rows": 100,
+      "bytes": 4435
+    },
+    {
+      "path": "reports/member3_od_borough_pairs.csv",
+      "rows": 64,
+      "bytes": 1378
+    },
+    {
+      "path": "reports/member3_od_borough_time.csv",
+      "rows": 251,
+      "bytes": 7841
+    },
+    {
+      "path": "reports/member3_od_zone_time_top.csv",
+      "rows": 100,
+      "bytes": 5607
+    }
+  ],
+  "top_zone_zero_filled_hours": 718,
+  "global_hours_without_records": [
+    "2026-03-08 02:00:00"
+  ],
+  "timestamp_format": "%Y-%m-%d %H:%M:%S",
+  "duckdb_version": "1.5.5"
+}
