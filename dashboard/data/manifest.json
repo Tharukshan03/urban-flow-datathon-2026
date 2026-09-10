@@ -1,0 +1,102 @@
+{
+  "source_branch": "feature/forecasting-spatial",
+  "source_commit": "8b3cdee641b59d27ff4ce9cd037bd5e46ccd7096",
+  "files": [
+    {
+      "file": "member3_pickup_zone_totals.csv",
+      "source_path": "reports/member3_pickup_zone_totals.csv",
+      "bytes": 5862,
+      "sha256": "bbfebf83755148a960d279f0c91b6a4d46ea653a39e76bb97572d97f687017b7"
+    },
+    {
+      "file": "member3_dropoff_zone_totals.csv",
+      "source_path": "reports/member3_dropoff_zone_totals.csv",
+      "bytes": 5953,
+      "sha256": "dbcda20c4556904b00a1d81f8f3ae711a820d523907b5aee6f4f9f16f7901c7d"
+    },
+    {
+      "file": "member3_pickup_borough_totals.csv",
+      "source_path": "reports/member3_pickup_borough_totals.csv",
+      "bytes": 146,
+      "sha256": "c55a18e0aa48956acfb7557b24b1c4aefd299f1e8113c06f8fa6851b772d80f0"
+    },
+    {
+      "file": "member3_demand_by_hour.csv",
+      "source_path": "reports/member3_demand_by_hour.csv",
+      "bytes": 273,
+      "sha256": "e2895e3b471a655522b23ca4de757698cfa9268496a7235234b8cccaef6efd7a"
+    },
+    {
+      "file": "member3_demand_by_weekday.csv",
+      "source_path": "reports/member3_demand_by_weekday.csv",
+      "bytes": 160,
+      "sha256": "994ebfad05784fcf11a656bde5af7aea613730b01b5eb8d96123f69e51c51731"
+    },
+    {
+      "file": "member3_od_zone_pairs.csv",
+      "source_path": "reports/member3_od_zone_pairs.csv",
+      "bytes": 4334,
+      "sha256": "b1b2f37415f6798047c9db587a8a113a7948c9360782ff3cf87c9ea4d7807d5e"
+    },
+    {
+      "file": "member3_od_borough_pairs.csv",
+      "source_path": "reports/member3_od_borough_pairs.csv",
+      "bytes": 1313,
+      "sha256": "7f53575c7996281de9079d2bf903dd2fad0ba495ec702b106a8e7ef066022606"
+    },
+    {
+      "file": "member3_od_zone_time_top.csv",
+      "source_path": "reports/member3_od_zone_time_top.csv",
+      "bytes": 5506,
+      "sha256": "201e43972d947ae583f5054d0de067e74de10519ec836306dcffa2e091924a1d"
+    },
+    {
+      "file": "member3_od_borough_time.csv",
+      "source_path": "reports/member3_od_borough_time.csv",
+      "bytes": 7589,
+      "sha256": "8e339e1817684d79fd9e6c1dad6874c115ab3ec8ddb610e2b46e0d9be17cbfe2"
+    },
+    {
+      "file": "member3_spatial_pickup_by_time.csv",
+      "source_path": "reports/member3_spatial_pickup_by_time.csv",
+      "bytes": 53667,
+      "sha256": "617c869daa93a49b18a896c3e5bf3fc3baad0fae89fe33d676b680493c144921"
+    },
+    {
+      "file": "member3_spatial_time_summary.csv",
+      "source_path": "reports/member3_spatial_time_summary.csv",
+      "bytes": 323,
+      "sha256": "5836a83a61538330a7465460fdfb3451032b77de7fa2a5f93efbec68f991be33"
+    },
+    {
+      "file": "member3_forecast_metrics.csv",
+      "source_path": "reports/member3_forecast_metrics.csv",
+      "bytes": 710,
+      "sha256": "ad8377bef576a3a546893cfbae41c546b95b9f2907864ed51d27fa773fd6835d"
+    },
+    {
+      "file": "forecast_24h.csv",
+      "source_path": "reports/forecast_24h.csv",
+      "bytes": 21386,
+      "sha256": "dae6321b83be2e1938b16d0487500bef480c94ebbd5478d86b8c801011211a0a"
+    },
+    {
+      "file": "forecast_48h.csv",
+      "source_path": "reports/forecast_48h.csv",
+      "bytes": 42805,
+      "sha256": "18c7bb02f61f2c4de7ff67195eeabadd7da471fbc710b20185c51a8c8f039d96"
+    },
+    {
+      "file": "forecast_72h.csv",
+      "source_path": "reports/forecast_72h.csv",
+      "bytes": 64200,
+      "sha256": "4ba24e88a7b5f253710bba653d09d484b751d12c8fffd6cb0f9f1544d1614d5f"
+    },
+    {
+      "file": "demand_spatial_findings.md",
+      "source_path": "reports/demand_spatial_findings.md",
+      "bytes": 8815,
+      "sha256": "ff1b0ec62ce5c40484904fec715cc7b591afb9e92a1452d60ac6fec235a82814"
+    }
+  ]
+}
