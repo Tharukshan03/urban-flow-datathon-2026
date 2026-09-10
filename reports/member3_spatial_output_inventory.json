@@ -1,0 +1,46 @@
+[
+  {
+    "path": "reports/member3_dropoff_zone_totals.csv",
+    "bytes": 6216
+  },
+  {
+    "path": "reports/member3_spatial_time_summary.csv",
+    "bytes": 328
+  },
+  {
+    "path": "reports/member3_spatial_pickup_by_time.csv",
+    "bytes": 54710
+  },
+  {
+    "path": "reports/member3_spatial_top_time_pairs.csv",
+    "bytes": 1201
+  },
+  {
+    "path": "reports/demand_spatial_findings.md",
+    "bytes": 8940
+  },
+  {
+    "path": "reports/figures/hotspot_zones.png",
+    "bytes": 143044
+  },
+  {
+    "path": "reports/figures/od_flows.png",
+    "bytes": 109565
+  },
+  {
+    "path": "reports/figures/demand_by_hour.png",
+    "bytes": 76127
+  },
+  {
+    "path": "reports/figures/demand_forecast.png",
+    "bytes": 357691
+  },
+  {
+    "path": "reports/figures/member3_borough_flows.png",
+    "bytes": 164302
+  },
+  {
+    "path": "reports/figures/member3_od_by_time.png",
+    "bytes": 261184
+  }
+]

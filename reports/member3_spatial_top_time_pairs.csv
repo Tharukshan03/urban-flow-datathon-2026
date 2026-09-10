@@ -1,0 +1,21 @@
+time_bucket,pickup_zone_name,dropoff_zone_name,trip_count
+morning_peak,Upper East Side North,Midtown Center,35293
+morning_peak,Upper East Side North,Upper East Side South,34622
+morning_peak,Upper East Side South,Upper East Side North,33437
+morning_peak,Upper East Side North,Upper East Side North,26818
+morning_peak,Upper East Side South,Midtown Center,25882
+midday,Upper East Side South,Upper East Side North,126637
+midday,Upper East Side North,Upper East Side South,120366
+midday,Upper East Side South,Upper East Side South,91859
+midday,Upper East Side North,Upper East Side North,85890
+midday,Upper East Side South,Midtown Center,57558
+evening_peak,Upper East Side South,Upper East Side North,83859
+evening_peak,Upper East Side North,Upper East Side South,73271
+evening_peak,Upper East Side South,Upper East Side South,59530
+evening_peak,Upper East Side North,Upper East Side North,54748
+evening_peak,Midtown Center,Upper East Side South,46601
+late_night,Upper East Side South,Upper East Side North,46364
+late_night,West Village,East Village,37249
+late_night,JFK Airport,Outside of NYC,34144
+late_night,East Village,East Village,33168
+late_night,East Village,Murray Hill,30568
