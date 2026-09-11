@@ -9,6 +9,56 @@ from assistant.analytics import answer_question, load_bundle, question_examples
 st.set_page_config(page_title='Urban Flow | AI Mobility Assistant', page_icon='🧭', layout='wide')
 
 
+def _apply_assistant_styles() -> None:
+    """Add a small visual polish layer without changing assistant behavior."""
+    st.html(
+        """
+        <style>
+        .stApp {
+            background: linear-gradient(135deg, #F8FBFC 0%, #EDF7F8 100%);
+        }
+        .block-container {
+            max-width: 1180px;
+            padding-top: 2rem;
+            padding-bottom: 2.5rem;
+        }
+        [data-testid="stForm"] {
+            margin-top: 1.25rem;
+            padding: 1.15rem 1.2rem 1.25rem;
+            border: 1px solid #BFD7DE;
+            border-left: 4px solid #0B7189;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.92);
+            box-shadow: 0 10px 24px rgba(23, 59, 83, 0.08);
+        }
+        [data-testid="stForm"] [data-testid="stTextInput"] input {
+            min-height: 2.85rem;
+            background: #FFFFFF;
+        }
+        [data-testid="stFormSubmitButton"] button {
+            min-height: 2.75rem;
+            font-weight: 650;
+        }
+        [data-testid="stChatMessage"] {
+            margin: 0.75rem 0;
+            padding: 0.35rem 0.65rem;
+            border: 1px solid #D7E5E9;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 5px 14px rgba(23, 59, 83, 0.04);
+        }
+        [data-testid="stSidebar"] [data-testid="stButton"] button {
+            margin-bottom: 0.2rem;
+            text-align: left;
+        }
+        </style>
+        """
+    )
+
+
+_apply_assistant_styles()
+
+
 def _init_state() -> None:
     if 'messages' not in st.session_state:
         st.session_state.messages = [
