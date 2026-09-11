@@ -1,0 +1,140 @@
+{
+  "evaluation_seconds": 15.731652399990708,
+  "sklearn_version": "1.9.0",
+  "features": [
+    "lag_1",
+    "lag_24",
+    "lag_48",
+    "lag_168",
+    "rolling_mean_3h",
+    "rolling_mean_24h",
+    "hour",
+    "weekday",
+    "is_weekend",
+    "zone_code"
+  ],
+  "train_end_exclusive": "2025-12-11 00:00:00",
+  "test_start": "2026-02-05 00:00:00",
+  "forecast_start": "2026-04-01 00:00:00",
+  "forecast_end": "2026-04-03 23:00:00",
+  "metrics": [
+    {
+      "split": "validation",
+      "horizon_hours": 24,
+      "n_predictions": 12960,
+      "n_origins": 54,
+      "baseline_mae": 46.57828824194565,
+      "baseline_rmse": 72.65102392332295,
+      "improved_mae": 37.61922726336956,
+      "improved_rmse": 59.08961537701027,
+      "winner": "Improved"
+    },
+    {
+      "split": "validation",
+      "horizon_hours": 48,
+      "n_predictions": 25920,
+      "n_origins": 54,
+      "baseline_mae": 46.332168395247095,
+      "baseline_rmse": 72.25848476867019,
+      "improved_mae": 41.01724615613815,
+      "improved_rmse": 64.22984680323472,
+      "winner": "Improved"
+    },
+    {
+      "split": "validation",
+      "horizon_hours": 72,
+      "n_predictions": 38880,
+      "n_origins": 54,
+      "baseline_mae": 46.08191381968388,
+      "baseline_rmse": 71.92619967157663,
+      "improved_mae": 42.9668299334182,
+      "improved_rmse": 67.25669668213898,
+      "winner": "Improved"
+    },
+    {
+      "split": "test",
+      "horizon_hours": 24,
+      "n_predictions": 12720,
+      "n_origins": 53,
+      "baseline_mae": 33.60378891112382,
+      "baseline_rmse": 53.82656474033824,
+      "improved_mae": 32.30299278081765,
+      "improved_rmse": 52.09000055006573,
+      "winner": "Improved"
+    },
+    {
+      "split": "test",
+      "horizon_hours": 48,
+      "n_predictions": 25440,
+      "n_origins": 53,
+      "baseline_mae": 33.574418556635536,
+      "baseline_rmse": 53.77285792886454,
+      "improved_mae": 34.26828288603496,
+      "improved_rmse": 55.02454156876792,
+      "winner": "Baseline"
+    },
+    {
+      "split": "test",
+      "horizon_hours": 72,
+      "n_predictions": 38160,
+      "n_origins": 53,
+      "baseline_mae": 33.57139082121,
+      "baseline_rmse": 53.75153859095335,
+      "improved_mae": 35.188656381453185,
+      "improved_rmse": 56.36961228935371,
+      "winner": "Baseline"
+    }
+  ],
+  "forecast_files": [
+    {
+      "path": "reports/forecast_24h.csv",
+      "rows": 240,
+      "bytes": 21627
+    },
+    {
+      "path": "reports/forecast_48h.csv",
+      "rows": 480,
+      "bytes": 43286
+    },
+    {
+      "path": "reports/forecast_72h.csv",
+      "rows": 720,
+      "bytes": 64921
+    }
+  ],
+  "test_missing_hour_sensitivity": [
+    {
+      "split": "test",
+      "horizon_hours": 24,
+      "n_predictions": 12710,
+      "n_origins": 53,
+      "baseline_mae": 33.6061880011762,
+      "baseline_rmse": 53.838299480321446,
+      "improved_mae": 32.30393562357261,
+      "improved_rmse": 52.10061798738006,
+      "winner": "Improved"
+    },
+    {
+      "split": "test",
+      "horizon_hours": 48,
+      "n_predictions": 25420,
+      "n_origins": 53,
+      "baseline_mae": 33.57679453861987,
+      "baseline_rmse": 53.78456211917499,
+      "improved_mae": 34.27101619572586,
+      "improved_rmse": 55.03702201804989,
+      "winner": "Baseline"
+    },
+    {
+      "split": "test",
+      "horizon_hours": 72,
+      "n_predictions": 38130,
+      "n_origins": 53,
+      "baseline_mae": 33.57376442102642,
+      "baseline_rmse": 53.76323064910873,
+      "improved_mae": 35.19180638401608,
+      "improved_rmse": 56.382555169255355,
+      "winner": "Baseline"
+    }
+  ]
+}

@@ -1,0 +1,1043 @@
+time_bucket,pickup_zone_name,trip_count,mean_pickups_per_nominal_hour
+evening_peak,Allerton/Pelham Gardens,649,0.44452054794520546
+evening_peak,Alphabet City,23483,16.084246575342465
+evening_peak,Arden Heights,5,0.003424657534246575
+evening_peak,Arrochar/Fort Wadsworth,225,0.1541095890410959
+evening_peak,Astoria,16890,11.568493150684931
+evening_peak,Astoria Park,125,0.08561643835616438
+evening_peak,Auburndale,272,0.1863013698630137
+evening_peak,Baisley Park,4489,3.074657534246575
+evening_peak,Bath Beach,492,0.336986301369863
+evening_peak,Battery Park,5040,3.452054794520548
+evening_peak,Battery Park City,101453,69.48835616438356
+evening_peak,Bay Ridge,3259,2.2321917808219176
+evening_peak,Bay Terrace/Fort Totten,270,0.18493150684931506
+evening_peak,Bayside,561,0.38424657534246576
+evening_peak,Bedford,9252,6.336986301369863
+evening_peak,Bedford Park,1479,1.013013698630137
+evening_peak,Bellerose,742,0.5082191780821917
+evening_peak,Belmont,1017,0.6965753424657535
+evening_peak,Bensonhurst East,939,0.6431506849315068
+evening_peak,Bensonhurst West,1332,0.9123287671232877
+evening_peak,Bloomfield/Emerson Hill,72,0.049315068493150684
+evening_peak,Bloomingdale,30592,20.953424657534246
+evening_peak,Boerum Hill,11658,7.984931506849315
+evening_peak,Borough Park,2562,1.7547945205479452
+evening_peak,Breezy Point/Fort Tilden/Riis Beach,112,0.07671232876712329
+evening_peak,Briarwood/Jamaica Hills,2299,1.5746575342465754
+evening_peak,Brighton Beach,1341,0.9184931506849315
+evening_peak,Broad Channel,43,0.02945205479452055
+evening_peak,Bronx Park,278,0.19041095890410958
+evening_peak,Bronxdale,937,0.6417808219178082
+evening_peak,Brooklyn Heights,15866,10.867123287671232
+evening_peak,Brooklyn Navy Yard,1947,1.3335616438356164
+evening_peak,Brownsville,4758,3.258904109589041
+evening_peak,Bushwick North,5206,3.5657534246575344
+evening_peak,Bushwick South,10128,6.936986301369863
+evening_peak,Cambria Heights,591,0.4047945205479452
+evening_peak,Canarsie,4823,3.3034246575342467
+evening_peak,Carroll Gardens,3149,2.1568493150684933
+evening_peak,Central Harlem,50922,34.87808219178082
+evening_peak,Central Harlem North,30257,20.723972602739725
+evening_peak,Central Park,178263,122.09794520547945
+evening_peak,Charleston/Tottenville,6,0.00410958904109589
+evening_peak,Chinatown,26207,17.95
+evening_peak,City Island,203,0.13904109589041097
+evening_peak,Claremont/Bathgate,1451,0.9938356164383562
+evening_peak,Clinton East,235492,161.2958904109589
+evening_peak,Clinton Hill,9500,6.506849315068493
+evening_peak,Clinton West,74270,50.86986301369863
+evening_peak,Co-Op City,2149,1.4719178082191782
+evening_peak,Cobble Hill,3537,2.4226027397260275
+evening_peak,College Point,653,0.44726027397260276
+evening_peak,Columbia Street,853,0.5842465753424657
+evening_peak,Coney Island,2456,1.6821917808219178
+evening_peak,Corona,2024,1.3863013698630138
+evening_peak,Country Club,83,0.05684931506849315
+evening_peak,Crotona Park,56,0.038356164383561646
+evening_peak,Crotona Park East,977,0.6691780821917809
+evening_peak,Crown Heights North,14252,9.761643835616438
+evening_peak,Crown Heights South,4023,2.7554794520547947
+evening_peak,Cypress Hills,1821,1.2472602739726026
+evening_peak,DUMBO/Vinegar Hill,16953,11.611643835616439
+evening_peak,Douglaston,281,0.19246575342465752
+evening_peak,Downtown Brooklyn/MetroTech,17287,11.84041095890411
+evening_peak,Dyker Heights,1099,0.7527397260273972
+evening_peak,East Chelsea,323770,221.76027397260273
+evening_peak,East Concourse/Concourse Village,3175,2.1746575342465753
+evening_peak,East Elmhurst,28666,19.634246575342466
+evening_peak,East Flatbush/Farragut,3622,2.4808219178082194
+evening_peak,East Flatbush/Remsen Village,4118,2.8205479452054796
+evening_peak,East Flushing,233,0.15958904109589042
+evening_peak,East Harlem North,42271,28.952739726027396
+evening_peak,East Harlem South,87407,59.86780821917808
+evening_peak,East New York,8021,5.493835616438356
+evening_peak,East New York/Pennsylvania Avenue,1992,1.3643835616438356
+evening_peak,East Tremont,1845,1.2636986301369864
+evening_peak,East Village,197918,135.56027397260274
+evening_peak,East Williamsburg,8603,5.892465753424657
+evening_peak,Eastchester,961,0.6582191780821918
+evening_peak,Elmhurst,6724,4.605479452054794
+evening_peak,Elmhurst/Maspeth,2353,1.6116438356164384
+evening_peak,Eltingville/Annadale/Prince's Bay,8,0.005479452054794521
+evening_peak,Erasmus,3280,2.2465753424657535
+evening_peak,Far Rockaway,1326,0.9082191780821918
+evening_peak,Financial District North,92515,63.36643835616438
+evening_peak,Financial District South,50823,34.81027397260274
+evening_peak,Flatbush/Ditmas Park,7999,5.478767123287671
+evening_peak,Flatiron,175769,120.38972602739726
+evening_peak,Flatlands,3573,2.447260273972603
+evening_peak,Flushing,2602,1.7821917808219179
+evening_peak,Flushing Meadows-Corona Park,5509,3.7732876712328767
+evening_peak,Fordham South,715,0.4897260273972603
+evening_peak,Forest Hills,5560,3.808219178082192
+evening_peak,Forest Park/Highland Park,177,0.12123287671232877
+evening_peak,Fort Greene,13718,9.395890410958904
+evening_peak,Fresh Meadows,380,0.2602739726027397
+evening_peak,Freshkills Park,4,0.0027397260273972603
+evening_peak,Garment District,162046,110.9904109589041
+evening_peak,Glen Oaks,526,0.36027397260273974
+evening_peak,Glendale,1240,0.8493150684931506
+evening_peak,Governor's Island/Ellis Island/Liberty Island,3,0.002054794520547945
+evening_peak,Gowanus,2579,1.7664383561643835
+evening_peak,Gramercy,211153,144.62534246575342
+evening_peak,Gravesend,676,0.46301369863013697
+evening_peak,Great Kills,8,0.005479452054794521
+evening_peak,Green-Wood Cemetery,26,0.01780821917808219
+evening_peak,Greenpoint,12731,8.71986301369863
+evening_peak,Greenwich Village North,162743,111.46780821917808
+evening_peak,Greenwich Village South,124973,85.59794520547945
+evening_peak,Grymes Hill/Clifton,29,0.01986301369863014
+evening_peak,Hamilton Heights,17467,11.963698630136987
+evening_peak,Hammels/Arverne,1340,0.9178082191780822
+evening_peak,Heartland Village/Todt Hill,46,0.031506849315068496
+evening_peak,Highbridge,1278,0.8753424657534247
+evening_peak,Highbridge Park,223,0.15273972602739727
+evening_peak,Hillcrest/Pomonok,1366,0.9356164383561644
+evening_peak,Hollis,510,0.3493150684931507
+evening_peak,Homecrest,1615,1.106164383561644
+evening_peak,Howard Beach,1051,0.7198630136986301
+evening_peak,Hudson Sq,59769,40.93767123287671
+evening_peak,Hunts Point,1544,1.0575342465753426
+evening_peak,Inwood,4151,2.8431506849315067
+evening_peak,Inwood Hill Park,431,0.2952054794520548
+evening_peak,JFK Airport,530998,363.6972602739726
+evening_peak,Jackson Heights,8811,6.034931506849315
+evening_peak,Jamaica,9458,6.478082191780822
+evening_peak,Jamaica Bay,19,0.013013698630136987
+evening_peak,Jamaica Estates,1006,0.689041095890411
+evening_peak,Kensington,1960,1.3424657534246576
+evening_peak,Kew Gardens,2720,1.8630136986301369
+evening_peak,Kew Gardens Hills,893,0.6116438356164383
+evening_peak,Kingsbridge Heights,1138,0.7794520547945205
+evening_peak,Kips Bay,140334,96.11917808219178
+evening_peak,LaGuardia Airport,299769,205.32123287671232
+evening_peak,Laurelton,944,0.6465753424657534
+evening_peak,Lenox Hill East,246555,168.87328767123287
+evening_peak,Lenox Hill West,260002,178.08356164383562
+evening_peak,Lincoln Square East,345346,236.53835616438357
+evening_peak,Lincoln Square West,133692,91.56986301369864
+evening_peak,Little Italy/NoLiTa,134352,92.02191780821917
+evening_peak,Long Island City/Hunters Point,22114,15.146575342465754
+evening_peak,Long Island City/Queens Plaza,10183,6.9746575342465755
+evening_peak,Longwood,990,0.678082191780822
+evening_peak,Lower East Side,85361,58.46643835616438
+evening_peak,Madison,1056,0.7232876712328767
+evening_peak,Manhattan Beach,776,0.5315068493150685
+evening_peak,Manhattan Valley,93070,63.74657534246575
+evening_peak,Manhattanville,15787,10.813013698630137
+evening_peak,Marble Hill,477,0.3267123287671233
+evening_peak,Marine Park/Floyd Bennett Field,171,0.11712328767123288
+evening_peak,Marine Park/Mill Basin,2224,1.5232876712328767
+evening_peak,Mariners Harbor,17,0.011643835616438357
+evening_peak,Maspeth,1903,1.3034246575342465
+evening_peak,Meatpacking/West Village West,105550,72.29452054794521
+evening_peak,Melrose South,3535,2.421232876712329
+evening_peak,Middle Village,1460,1.0
+evening_peak,Midtown Center,629425,431.11301369863014
+evening_peak,Midtown East,446902,306.0972602739726
+evening_peak,Midtown North,354302,242.67260273972602
+evening_peak,Midtown South,260795,178.62671232876713
+evening_peak,Midwood,1952,1.336986301369863
+evening_peak,Morningside Heights,77039,52.766438356164386
+evening_peak,Morrisania/Melrose,1724,1.180821917808219
+evening_peak,Mott Haven/Port Morris,6837,4.682876712328767
+evening_peak,Mount Hope,1930,1.321917808219178
+evening_peak,Murray Hill,347283,237.8650684931507
+evening_peak,Murray Hill-Queens,512,0.3506849315068493
+evening_peak,New Dorp/Midland Beach,30,0.02054794520547945
+evening_peak,Newark Airport,1999,1.3691780821917807
+evening_peak,North Corona,1194,0.8178082191780822
+evening_peak,Norwood,1486,1.0178082191780822
+evening_peak,Oakland Gardens,300,0.2054794520547945
+evening_peak,Oakwood,9,0.0061643835616438354
+evening_peak,Ocean Hill,4617,3.1623287671232876
+evening_peak,Ocean Parkway South,555,0.3801369863013699
+evening_peak,Old Astoria,6473,4.433561643835616
+evening_peak,Outside of NYC,4592,3.1452054794520548
+evening_peak,Ozone Park,1014,0.6945205479452055
+evening_peak,Park Slope,11491,7.870547945205479
+evening_peak,Parkchester,1274,0.8726027397260274
+evening_peak,Pelham Bay,442,0.30273972602739724
+evening_peak,Pelham Bay Park,177,0.12123287671232877
+evening_peak,Pelham Parkway,957,0.6554794520547945
+evening_peak,Penn Station/Madison Sq West,345276,236.4904109589041
+evening_peak,Port Richmond,6,0.00410958904109589
+evening_peak,Prospect Heights,4567,3.128082191780822
+evening_peak,Prospect Park,1185,0.8116438356164384
+evening_peak,Prospect-Lefferts Gardens,9065,6.208904109589041
+evening_peak,Queens Village,1344,0.9205479452054794
+evening_peak,Queensboro Hill,518,0.3547945205479452
+evening_peak,Queensbridge/Ravenswood,6866,4.7027397260273975
+evening_peak,Randalls Island,588,0.40273972602739727
+evening_peak,Red Hook,3143,2.1527397260273973
+evening_peak,Rego Park,3103,2.1253424657534246
+evening_peak,Richmond Hill,5235,3.585616438356164
+evening_peak,Ridgewood,3348,2.293150684931507
+evening_peak,Rikers Island,6,0.00410958904109589
+evening_peak,Riverdale/North Riverdale/Fieldston,1154,0.7904109589041096
+evening_peak,Rockaway Park,616,0.42191780821917807
+evening_peak,Roosevelt Island,1294,0.8863013698630137
+evening_peak,Rosedale,658,0.4506849315068493
+evening_peak,Rossville/Woodrow,1,0.0006849315068493151
+evening_peak,Saint Albans,1819,1.2458904109589042
+evening_peak,Saint George/New Brighton,14,0.009589041095890411
+evening_peak,Saint Michaels Cemetery/Woodside,474,0.32465753424657534
+evening_peak,Schuylerville/Edgewater Park,996,0.6821917808219178
+evening_peak,Seaport,26308,18.019178082191782
+evening_peak,Sheepshead Bay,1590,1.0890410958904109
+evening_peak,SoHo,117477,80.46369863013699
+evening_peak,Soundview/Bruckner,1097,0.7513698630136987
+evening_peak,Soundview/Castle Hill,1903,1.3034246575342465
+evening_peak,South Beach/Dongan Hills,82,0.056164383561643834
+evening_peak,South Jamaica,2380,1.63013698630137
+evening_peak,South Ozone Park,7017,4.806164383561644
+evening_peak,South Williamsburg,1814,1.2424657534246575
+evening_peak,Springfield Gardens North,1242,0.8506849315068493
+evening_peak,Springfield Gardens South,2119,1.4513698630136986
+evening_peak,Spuyten Duyvil/Kingsbridge,1825,1.25
+evening_peak,Stapleton,47,0.03219178082191781
+evening_peak,Starrett City,1313,0.8993150684931507
+evening_peak,Steinway,6206,4.250684931506849
+evening_peak,Stuy Town/Peter Cooper Village,21986,15.058904109589042
+evening_peak,Stuyvesant Heights,8564,5.865753424657535
+evening_peak,Sunnyside,18182,12.453424657534246
+evening_peak,Sunset Park East,1469,1.0061643835616438
+evening_peak,Sunset Park West,5112,3.5013698630136987
+evening_peak,Sutton Place/Turtle Bay North,182270,124.84246575342466
+evening_peak,Times Sq/Theatre District,359086,245.94931506849315
+evening_peak,TriBeCa/Civic Center,183738,125.84794520547945
+evening_peak,Two Bridges/Seward Park,26477,18.134931506849316
+evening_peak,UN/Turtle Bay South,140169,96.00616438356164
+evening_peak,Union Sq,352146,241.1958904109589
+evening_peak,University Heights/Morris Heights,1792,1.2273972602739727
+evening_peak,Upper East Side North,501906,343.7712328767123
+evening_peak,Upper East Side South,587150,402.1575342465753
+evening_peak,Upper West Side North,212332,145.43287671232878
+evening_peak,Upper West Side South,307396,210.54520547945205
+evening_peak,Van Cortlandt Park,233,0.15958904109589042
+evening_peak,Van Cortlandt Village,1332,0.9123287671232877
+evening_peak,Van Nest/Morris Park,1684,1.1534246575342466
+evening_peak,Washington Heights North,8867,6.073287671232877
+evening_peak,Washington Heights South,22841,15.644520547945206
+evening_peak,West Brighton,14,0.009589041095890411
+evening_peak,West Chelsea/Hudson Yards,279832,191.66575342465754
+evening_peak,West Concourse,3892,2.665753424657534
+evening_peak,West Farms/Bronx River,913,0.6253424657534247
+evening_peak,West Village,183125,125.42808219178082
+evening_peak,Westchester Village/Unionport,1509,1.0335616438356163
+evening_peak,Westerleigh,29,0.01986301369863014
+evening_peak,Whitestone,613,0.41986301369863016
+evening_peak,Willets Point,105,0.07191780821917808
+evening_peak,Williamsbridge/Olinville,1537,1.0527397260273972
+evening_peak,Williamsburg (North Side),14957,10.244520547945205
+evening_peak,Williamsburg (South Side),12987,8.895205479452056
+evening_peak,Windsor Terrace,1239,0.8486301369863014
+evening_peak,Woodhaven,1544,1.0575342465753426
+evening_peak,Woodlawn/Wakefield,888,0.6082191780821918
+evening_peak,Woodside,6560,4.493150684931507
+evening_peak,World Trade Center,74249,50.855479452054794
+evening_peak,Yorkville East,147412,100.96712328767123
+evening_peak,Yorkville West,199993,136.98150684931508
+evening_peak,,17467,11.963698630136987
+late_night,Allerton/Pelham Gardens,1286,0.35232876712328765
+late_night,Alphabet City,79188,21.695342465753424
+late_night,Arden Heights,9,0.002465753424657534
+late_night,Arrochar/Fort Wadsworth,198,0.054246575342465755
+late_night,Astoria,35101,9.616712328767123
+late_night,Astoria Park,279,0.07643835616438356
+late_night,Auburndale,521,0.14273972602739726
+late_night,Baisley Park,6633,1.8172602739726027
+late_night,Bath Beach,773,0.21178082191780823
+late_night,Battery Park,1213,0.3323287671232877
+late_night,Battery Park City,59635,16.338356164383562
+late_night,Bay Ridge,5139,1.4079452054794521
+late_night,Bay Terrace/Fort Totten,484,0.1326027397260274
+late_night,Bayside,1333,0.3652054794520548
+late_night,Bedford,15187,4.160821917808219
+late_night,Bedford Park,2763,0.756986301369863
+late_night,Bellerose,1464,0.4010958904109589
+late_night,Belmont,1543,0.42273972602739723
+late_night,Bensonhurst East,1275,0.3493150684931507
+late_night,Bensonhurst West,1739,0.47643835616438357
+late_night,Bloomfield/Emerson Hill,133,0.03643835616438356
+late_night,Bloomingdale,27726,7.596164383561644
+late_night,Boerum Hill,21747,5.9580821917808215
+late_night,Borough Park,2271,0.6221917808219178
+late_night,Breezy Point/Fort Tilden/Riis Beach,128,0.03506849315068493
+late_night,Briarwood/Jamaica Hills,4206,1.1523287671232876
+late_night,Brighton Beach,1066,0.29205479452054794
+late_night,Broad Channel,91,0.02493150684931507
+late_night,Bronx Park,319,0.0873972602739726
+late_night,Bronxdale,1619,0.4435616438356164
+late_night,Brooklyn Heights,18895,5.176712328767123
+late_night,Brooklyn Navy Yard,4713,1.2912328767123287
+late_night,Brownsville,6492,1.7786301369863013
+late_night,Bushwick North,27575,7.554794520547945
+late_night,Bushwick South,34678,9.500821917808219
+late_night,Cambria Heights,1175,0.3219178082191781
+late_night,Canarsie,7546,2.0673972602739727
+late_night,Carroll Gardens,5911,1.6194520547945206
+late_night,Central Harlem,52032,14.255342465753424
+late_night,Central Harlem North,38042,10.422465753424657
+late_night,Central Park,91859,25.166849315068493
+late_night,Charleston/Tottenville,16,0.004383561643835616
+late_night,Chinatown,37779,10.35041095890411
+late_night,City Island,315,0.0863013698630137
+late_night,Claremont/Bathgate,2132,0.5841095890410959
+late_night,Clinton East,437392,119.83342465753425
+late_night,Clinton Hill,12404,3.3983561643835616
+late_night,Clinton West,82708,22.65972602739726
+late_night,Co-Op City,3857,1.0567123287671232
+late_night,Cobble Hill,4559,1.249041095890411
+late_night,College Point,1687,0.4621917808219178
+late_night,Columbia Street,1429,0.3915068493150685
+late_night,Coney Island,2712,0.743013698630137
+late_night,Corona,5516,1.5112328767123289
+late_night,Country Club,255,0.06986301369863014
+late_night,Crotona Park,79,0.021643835616438355
+late_night,Crotona Park East,1833,0.5021917808219178
+late_night,Crown Heights North,23749,6.506575342465753
+late_night,Crown Heights South,5962,1.6334246575342466
+late_night,Cypress Hills,4644,1.2723287671232877
+late_night,DUMBO/Vinegar Hill,21887,5.996438356164384
+late_night,Douglaston,670,0.18356164383561643
+late_night,Downtown Brooklyn/MetroTech,18611,5.098904109589041
+late_night,Dyker Heights,1314,0.36
+late_night,East Chelsea,369560,101.24931506849315
+late_night,East Concourse/Concourse Village,3774,1.033972602739726
+late_night,East Elmhurst,37036,10.146849315068494
+late_night,East Flatbush/Farragut,5799,1.5887671232876712
+late_night,East Flatbush/Remsen Village,6467,1.7717808219178082
+late_night,East Flushing,657,0.18
+late_night,East Harlem North,43468,11.90904109589041
+late_night,East Harlem South,61868,16.95013698630137
+late_night,East New York,13846,3.7934246575342465
+late_night,East New York/Pennsylvania Avenue,3630,0.9945205479452055
+late_night,East Tremont,2728,0.7473972602739726
+late_night,East Village,659331,180.6386301369863
+late_night,East Williamsburg,38569,10.566849315068493
+late_night,Eastchester,1871,0.5126027397260274
+late_night,Elmhurst,15385,4.215068493150685
+late_night,Elmhurst/Maspeth,4431,1.213972602739726
+late_night,Eltingville/Annadale/Prince's Bay,13,0.003561643835616438
+late_night,Erasmus,5258,1.4405479452054795
+late_night,Far Rockaway,2122,0.5813698630136986
+late_night,Financial District North,126835,34.74931506849315
+late_night,Financial District South,57311,15.701643835616439
+late_night,Flatbush/Ditmas Park,11025,3.0205479452054793
+late_night,Flatiron,246847,67.62931506849316
+late_night,Flatlands,5105,1.3986301369863015
+late_night,Flushing,7443,2.0391780821917806
+late_night,Flushing Meadows-Corona Park,16054,4.398356164383562
+late_night,Fordham South,1508,0.41315068493150686
+late_night,Forest Hills,10406,2.850958904109589
+late_night,Forest Park/Highland Park,294,0.08054794520547945
+late_night,Fort Greene,25293,6.92958904109589
+late_night,Fresh Meadows,985,0.26986301369863014
+late_night,Garment District,188820,51.73150684931507
+late_night,Glen Oaks,1229,0.3367123287671233
+late_night,Glendale,2464,0.675068493150685
+late_night,Governor's Island/Ellis Island/Liberty Island,2,0.000547945205479452
+late_night,Gowanus,5565,1.5246575342465754
+late_night,Gramercy,290809,79.67369863013698
+late_night,Gravesend,878,0.24054794520547945
+late_night,Great Kills,30,0.00821917808219178
+late_night,Green-Wood Cemetery,57,0.015616438356164384
+late_night,Greenpoint,36671,10.046849315068494
+late_night,Greenwich Village North,234633,64.28301369863014
+late_night,Greenwich Village South,395839,108.44904109589041
+late_night,Grymes Hill/Clifton,85,0.023287671232876714
+late_night,Hamilton Heights,25501,6.986575342465754
+late_night,Hammels/Arverne,1850,0.5068493150684932
+late_night,Heartland Village/Todt Hill,85,0.023287671232876714
+late_night,Highbridge,2749,0.7531506849315068
+late_night,Highbridge Park,283,0.07753424657534247
+late_night,Hillcrest/Pomonok,2131,0.5838356164383561
+late_night,Hollis,1396,0.38246575342465755
+late_night,Homecrest,1358,0.37205479452054796
+late_night,Howard Beach,2290,0.6273972602739726
+late_night,Hudson Sq,78197,21.423835616438357
+late_night,Hunts Point,2088,0.572054794520548
+late_night,Inwood,6572,1.8005479452054796
+late_night,Inwood Hill Park,511,0.14
+late_night,JFK Airport,698225,191.2945205479452
+late_night,Jackson Heights,22115,6.058904109589041
+late_night,Jamaica,22366,6.127671232876712
+late_night,Jamaica Bay,23,0.006301369863013699
+late_night,Jamaica Estates,1849,0.5065753424657534
+late_night,Kensington,2347,0.643013698630137
+late_night,Kew Gardens,3181,0.8715068493150685
+late_night,Kew Gardens Hills,1761,0.48246575342465753
+late_night,Kingsbridge Heights,1717,0.4704109589041096
+late_night,Kips Bay,144415,39.56575342465754
+late_night,LaGuardia Airport,359505,98.4945205479452
+late_night,Laurelton,1472,0.40328767123287673
+late_night,Lenox Hill East,120893,33.1213698630137
+late_night,Lenox Hill West,210900,57.78082191780822
+late_night,Lincoln Square East,389346,106.67013698630137
+late_night,Lincoln Square West,79295,21.724657534246575
+late_night,Little Italy/NoLiTa,236656,64.8372602739726
+late_night,Long Island City/Hunters Point,38919,10.662739726027397
+late_night,Long Island City/Queens Plaza,14264,3.907945205479452
+late_night,Longwood,1554,0.42575342465753424
+late_night,Lower East Side,370402,101.48
+late_night,Madison,1055,0.28904109589041094
+late_night,Manhattan Beach,1002,0.2745205479452055
+late_night,Manhattan Valley,56805,15.563013698630137
+late_night,Manhattanville,15197,4.163561643835616
+late_night,Marble Hill,699,0.1915068493150685
+late_night,Marine Park/Floyd Bennett Field,260,0.07123287671232877
+late_night,Marine Park/Mill Basin,2315,0.6342465753424658
+late_night,Mariners Harbor,51,0.013972602739726028
+late_night,Maspeth,11431,3.131780821917808
+late_night,Meatpacking/West Village West,215003,58.904931506849316
+late_night,Melrose South,4208,1.152876712328767
+late_night,Middle Village,2698,0.7391780821917808
+late_night,Midtown Center,530972,145.4717808219178
+late_night,Midtown East,337691,92.51808219178082
+late_night,Midtown North,313780,85.96712328767123
+late_night,Midtown South,333129,91.26821917808219
+late_night,Midwood,1585,0.43424657534246575
+late_night,Morningside Heights,63879,17.50109589041096
+late_night,Morrisania/Melrose,2844,0.7791780821917809
+late_night,Mott Haven/Port Morris,10350,2.835616438356164
+late_night,Mount Hope,3042,0.8334246575342465
+late_night,Murray Hill,299798,82.13643835616439
+late_night,Murray Hill-Queens,1286,0.35232876712328765
+late_night,New Dorp/Midland Beach,60,0.01643835616438356
+late_night,Newark Airport,898,0.24602739726027398
+late_night,North Corona,3964,1.0860273972602739
+late_night,Norwood,1930,0.5287671232876713
+late_night,Oakland Gardens,651,0.17835616438356164
+late_night,Oakwood,38,0.010410958904109589
+late_night,Ocean Hill,8049,2.205205479452055
+late_night,Ocean Parkway South,524,0.14356164383561643
+late_night,Old Astoria,9282,2.543013698630137
+late_night,Outside of NYC,8826,2.418082191780822
+late_night,Ozone Park,2369,0.6490410958904109
+late_night,Park Slope,23854,6.535342465753424
+late_night,Parkchester,2523,0.6912328767123288
+late_night,Pelham Bay,852,0.23342465753424657
+late_night,Pelham Bay Park,196,0.0536986301369863
+late_night,Pelham Parkway,1484,0.40657534246575344
+late_night,Penn Station/Madison Sq West,394573,108.10219178082191
+late_night,Port Richmond,28,0.007671232876712329
+late_night,Prospect Heights,8453,2.3158904109589042
+late_night,Prospect Park,1203,0.32958904109589043
+late_night,Prospect-Lefferts Gardens,11809,3.235342465753425
+late_night,Queens Village,3539,0.9695890410958904
+late_night,Queensboro Hill,1219,0.333972602739726
+late_night,Queensbridge/Ravenswood,6222,1.7046575342465753
+late_night,Randalls Island,603,0.1652054794520548
+late_night,Red Hook,4355,1.1931506849315068
+late_night,Rego Park,3405,0.9328767123287671
+late_night,Richmond Hill,9354,2.5627397260273974
+late_night,Ridgewood,10166,2.785205479452055
+late_night,Rikers Island,5,0.0013698630136986301
+late_night,Riverdale/North Riverdale/Fieldston,998,0.27342465753424655
+late_night,Rockaway Park,754,0.20657534246575343
+late_night,Roosevelt Island,1812,0.4964383561643836
+late_night,Rosedale,1805,0.4945205479452055
+late_night,Rossville/Woodrow,16,0.004383561643835616
+late_night,Saint Albans,3891,1.066027397260274
+late_night,Saint George/New Brighton,74,0.020273972602739727
+late_night,Saint Michaels Cemetery/Woodside,519,0.1421917808219178
+late_night,Schuylerville/Edgewater Park,2601,0.7126027397260274
+late_night,Seaport,47734,13.077808219178083
+late_night,Sheepshead Bay,2034,0.5572602739726027
+late_night,SoHo,144084,39.47506849315069
+late_night,Soundview/Bruckner,2289,0.6271232876712329
+late_night,Soundview/Castle Hill,3446,0.9441095890410959
+late_night,South Beach/Dongan Hills,140,0.038356164383561646
+late_night,South Jamaica,4739,1.2983561643835617
+late_night,South Ozone Park,12051,3.301643835616438
+late_night,South Williamsburg,3068,0.8405479452054795
+late_night,Springfield Gardens North,2850,0.7808219178082192
+late_night,Springfield Gardens South,3834,1.0504109589041095
+late_night,Spuyten Duyvil/Kingsbridge,2334,0.6394520547945205
+late_night,Stapleton,183,0.05013698630136986
+late_night,Starrett City,1487,0.4073972602739726
+late_night,Steinway,11366,3.113972602739726
+late_night,Stuy Town/Peter Cooper Village,26512,7.263561643835616
+late_night,Stuyvesant Heights,16124,4.417534246575342
+late_night,Sunnyside,24748,6.78027397260274
+late_night,Sunset Park East,2210,0.6054794520547945
+late_night,Sunset Park West,9025,2.4726027397260273
+late_night,Sutton Place/Turtle Bay North,175799,48.1641095890411
+late_night,Times Sq/Theatre District,517376,141.7468493150685
+late_night,TriBeCa/Civic Center,215065,58.92191780821918
+late_night,Two Bridges/Seward Park,48568,13.306301369863014
+late_night,UN/Turtle Bay South,105873,29.006301369863014
+late_night,Union Sq,419047,114.80739726027397
+late_night,University Heights/Morris Heights,2901,0.7947945205479452
+late_night,Upper East Side North,224870,61.608219178082194
+late_night,Upper East Side South,393472,107.80054794520548
+late_night,Upper West Side North,128521,35.21123287671233
+late_night,Upper West Side South,234668,64.29260273972602
+late_night,Van Cortlandt Park,406,0.11123287671232877
+late_night,Van Cortlandt Village,2037,0.558082191780822
+late_night,Van Nest/Morris Park,2310,0.6328767123287671
+late_night,Washington Heights North,12787,3.5032876712328767
+late_night,Washington Heights South,26807,7.344383561643836
+late_night,West Brighton,47,0.012876712328767123
+late_night,West Chelsea/Hudson Yards,247038,67.68164383561644
+late_night,West Concourse,6625,1.8150684931506849
+late_night,West Farms/Bronx River,2142,0.5868493150684931
+late_night,West Village,546562,149.74301369863014
+late_night,Westchester Village/Unionport,2257,0.6183561643835617
+late_night,Westerleigh,80,0.021917808219178082
+late_night,Whitestone,1264,0.3463013698630137
+late_night,Willets Point,197,0.053972602739726025
+late_night,Williamsbridge/Olinville,3390,0.9287671232876712
+late_night,Williamsburg (North Side),71334,19.543561643835616
+late_night,Williamsburg (South Side),43749,11.986027397260274
+late_night,Windsor Terrace,1906,0.5221917808219179
+late_night,Woodhaven,3955,1.0835616438356164
+late_night,Woodlawn/Wakefield,1902,0.5210958904109589
+late_night,Woodside,12889,3.5312328767123287
+late_night,World Trade Center,51112,14.003287671232878
+late_night,Yorkville East,70496,19.313972602739724
+late_night,Yorkville West,199751,54.726301369863016
+late_night,,16312,4.469041095890411
+midday,Allerton/Pelham Gardens,1418,0.6474885844748859
+midday,Alphabet City,28607,13.06255707762557
+midday,Arden Heights,5,0.00228310502283105
+midday,Arrochar/Fort Wadsworth,312,0.14246575342465753
+midday,Astoria,22944,10.476712328767123
+midday,Astoria Park,151,0.06894977168949772
+midday,Auburndale,745,0.3401826484018265
+midday,Baisley Park,6714,3.0657534246575344
+midday,Bath Beach,1264,0.5771689497716895
+midday,Battery Park,8338,3.8073059360730594
+midday,Battery Park City,91210,41.64840182648402
+midday,Bay Ridge,7217,3.295433789954338
+midday,Bay Terrace/Fort Totten,606,0.27671232876712326
+midday,Bayside,996,0.4547945205479452
+midday,Bedford,13695,6.2534246575342465
+midday,Bedford Park,3183,1.4534246575342467
+midday,Bellerose,1344,0.6136986301369863
+midday,Belmont,1718,0.7844748858447489
+midday,Bensonhurst East,2604,1.189041095890411
+midday,Bensonhurst West,3485,1.591324200913242
+midday,Bloomfield/Emerson Hill,105,0.04794520547945205
+midday,Bloomingdale,43690,19.949771689497716
+midday,Boerum Hill,12830,5.858447488584475
+midday,Borough Park,5582,2.5488584474885845
+midday,Breezy Point/Fort Tilden/Riis Beach,69,0.031506849315068496
+midday,Briarwood/Jamaica Hills,4025,1.8378995433789955
+midday,Brighton Beach,3079,1.4059360730593606
+midday,Broad Channel,45,0.02054794520547945
+midday,Bronx Park,422,0.19269406392694063
+midday,Bronxdale,1999,0.9127853881278539
+midday,Brooklyn Heights,16241,7.415981735159817
+midday,Brooklyn Navy Yard,1334,0.6091324200913242
+midday,Brownsville,11670,5.328767123287672
+midday,Bushwick North,5982,2.7315068493150685
+midday,Bushwick South,14425,6.5867579908675795
+midday,Cambria Heights,1304,0.5954337899543379
+midday,Canarsie,13406,6.121461187214612
+midday,Carroll Gardens,3219,1.4698630136986301
+midday,Central Harlem,60148,27.464840182648402
+midday,Central Harlem North,41111,18.772146118721462
+midday,Central Park,263852,120.48036529680365
+midday,Charleston/Tottenville,6,0.0027397260273972603
+midday,Chinatown,28761,13.132876712328768
+midday,City Island,241,0.11004566210045662
+midday,Claremont/Bathgate,2698,1.2319634703196347
+midday,Clinton East,248089,113.28264840182648
+midday,Clinton Hill,11912,5.439269406392694
+midday,Clinton West,98774,45.10228310502283
+midday,Co-Op City,3906,1.7835616438356163
+midday,Cobble Hill,4241,1.9365296803652967
+midday,College Point,1037,0.4735159817351598
+midday,Columbia Street,944,0.43105022831050227
+midday,Coney Island,6131,2.7995433789954336
+midday,Corona,3111,1.4205479452054794
+midday,Country Club,161,0.07351598173515982
+midday,Crotona Park,79,0.036073059360730596
+midday,Crotona Park East,2100,0.958904109589041
+midday,Crown Heights North,24966,11.4
+midday,Crown Heights South,7559,3.4515981735159817
+midday,Cypress Hills,4430,2.0228310502283104
+midday,DUMBO/Vinegar Hill,13888,6.341552511415525
+midday,Douglaston,419,0.191324200913242
+midday,Downtown Brooklyn/MetroTech,16603,7.581278538812786
+midday,Dyker Heights,1628,0.7433789954337899
+midday,East Chelsea,359443,164.12922374429223
+midday,East Concourse/Concourse Village,5787,2.6424657534246574
+midday,East Elmhurst,43166,19.710502283105022
+midday,East Flatbush/Farragut,9065,4.139269406392694
+midday,East Flatbush/Remsen Village,10328,4.715981735159818
+midday,East Flushing,456,0.20821917808219179
+midday,East Harlem North,56975,26.015981735159816
+midday,East Harlem South,128221,58.54840182648402
+midday,East New York,20269,9.255251141552511
+midday,East New York/Pennsylvania Avenue,5166,2.3589041095890413
+midday,East Tremont,3578,1.6337899543378995
+midday,East Village,190528,86.99908675799087
+midday,East Williamsburg,9025,4.121004566210046
+midday,Eastchester,2237,1.0214611872146118
+midday,Elmhurst,6149,2.8077625570776257
+midday,Elmhurst/Maspeth,3200,1.461187214611872
+midday,Eltingville/Annadale/Prince's Bay,5,0.00228310502283105
+midday,Erasmus,5774,2.636529680365297
+midday,Far Rockaway,3875,1.769406392694064
+midday,Financial District North,74533,34.03333333333333
+midday,Financial District South,45552,20.8
+midday,Flatbush/Ditmas Park,15197,6.939269406392694
+midday,Flatiron,189116,86.35433789954338
+midday,Flatlands,9587,4.377625570776256
+midday,Flushing,3491,1.5940639269406394
+midday,Flushing Meadows-Corona Park,2305,1.052511415525114
+midday,Fordham South,1465,0.6689497716894978
+midday,Forest Hills,7288,3.3278538812785388
+midday,Forest Park/Highland Park,279,0.1273972602739726
+midday,Fort Greene,14982,6.841095890410959
+midday,Fresh Meadows,955,0.4360730593607306
+midday,Freshkills Park,2,0.0009132420091324201
+midday,Garment District,177926,81.2447488584475
+midday,Glen Oaks,902,0.41187214611872147
+midday,Glendale,2039,0.9310502283105023
+midday,Governor's Island/Ellis Island/Liberty Island,4,0.0018264840182648401
+midday,Gowanus,3051,1.393150684931507
+midday,Gramercy,241063,110.07442922374429
+midday,Gravesend,2112,0.9643835616438357
+midday,Great Kills,11,0.00502283105022831
+midday,Green-Wood Cemetery,42,0.019178082191780823
+midday,Greenpoint,10505,4.796803652968037
+midday,Greenwich Village North,172082,78.57625570776256
+midday,Greenwich Village South,101901,46.53013698630137
+midday,Grymes Hill/Clifton,41,0.01872146118721461
+midday,Hamilton Heights,23450,10.707762557077626
+midday,Hammels/Arverne,3102,1.4164383561643836
+midday,Heartland Village/Todt Hill,58,0.026484018264840183
+midday,Highbridge,3102,1.4164383561643836
+midday,Highbridge Park,280,0.1278538812785388
+midday,Hillcrest/Pomonok,2807,1.2817351598173516
+midday,Hollis,1477,0.6744292237442923
+midday,Homecrest,4101,1.8726027397260274
+midday,Howard Beach,1812,0.8273972602739726
+midday,Hudson Sq,62720,28.639269406392692
+midday,Hunts Point,2677,1.2223744292237444
+midday,Inwood,5377,2.4552511415525116
+midday,Inwood Hill Park,566,0.25844748858447486
+midday,JFK Airport,502559,229.47899543378995
+midday,Jackson Heights,12214,5.577168949771689
+midday,Jamaica,12406,5.664840182648402
+midday,Jamaica Bay,26,0.011872146118721462
+midday,Jamaica Estates,2567,1.1721461187214612
+midday,Kensington,3240,1.4794520547945205
+midday,Kew Gardens,4181,1.9091324200913242
+midday,Kew Gardens Hills,2010,0.9178082191780822
+midday,Kingsbridge Heights,2335,1.0662100456621004
+midday,Kips Bay,155644,71.0703196347032
+midday,LaGuardia Airport,452337,206.54657534246576
+midday,Laurelton,1646,0.7515981735159817
+midday,Lenox Hill East,349511,159.59406392694063
+midday,Lenox Hill West,347502,158.6767123287671
+midday,Lincoln Square East,417751,190.7538812785388
+midday,Lincoln Square West,192116,87.72420091324202
+midday,Little Italy/NoLiTa,113029,51.611415525114154
+midday,Long Island City/Hunters Point,25324,11.563470319634703
+midday,Long Island City/Queens Plaza,12590,5.748858447488584
+midday,Longwood,2066,0.94337899543379
+midday,Lower East Side,79339,36.22785388127854
+midday,Madison,2708,1.2365296803652968
+midday,Manhattan Beach,1454,0.6639269406392694
+midday,Manhattan Valley,135610,61.922374429223744
+midday,Manhattanville,15779,7.205022831050228
+midday,Marble Hill,637,0.2908675799086758
+midday,Marine Park/Floyd Bennett Field,215,0.09817351598173515
+midday,Marine Park/Mill Basin,4704,2.147945205479452
+midday,Mariners Harbor,42,0.019178082191780823
+midday,Maspeth,2878,1.3141552511415524
+midday,Meatpacking/West Village West,97028,44.30502283105023
+midday,Melrose South,5367,2.4506849315068493
+midday,Middle Village,2309,1.054337899543379
+midday,Midtown Center,622523,284.2570776255708
+midday,Midtown East,452639,206.68447488584474
+midday,Midtown North,382316,174.57351598173517
+midday,Midtown South,271711,124.0689497716895
+midday,Midwood,5610,2.5616438356164384
+midday,Morningside Heights,86668,39.57442922374429
+midday,Morrisania/Melrose,3900,1.7808219178082192
+midday,Mott Haven/Port Morris,8879,4.054337899543379
+midday,Mount Hope,3727,1.7018264840182649
+midday,Murray Hill,409267,186.8799086757991
+midday,Murray Hill-Queens,1080,0.4931506849315068
+midday,New Dorp/Midland Beach,29,0.013242009132420091
+midday,Newark Airport,2507,1.1447488584474885
+midday,North Corona,1478,0.6748858447488585
+midday,Norwood,3039,1.3876712328767122
+midday,Oakland Gardens,682,0.31141552511415527
+midday,Oakwood,7,0.0031963470319634705
+midday,Ocean Hill,9097,4.153881278538813
+midday,Ocean Parkway South,1179,0.5383561643835616
+midday,Old Astoria,10274,4.691324200913242
+midday,Outside of NYC,5445,2.4863013698630136
+midday,Ozone Park,1679,0.7666666666666667
+midday,Park Slope,12231,5.5849315068493155
+midday,Parkchester,3341,1.5255707762557078
+midday,Pelham Bay,737,0.3365296803652968
+midday,Pelham Bay Park,113,0.051598173515981734
+midday,Pelham Parkway,1743,0.7958904109589041
+midday,Penn Station/Madison Sq West,470238,214.72054794520548
+midday,Port Richmond,26,0.011872146118721462
+midday,Prospect Heights,4931,2.2515981735159816
+midday,Prospect Park,1276,0.582648401826484
+midday,Prospect-Lefferts Gardens,16417,7.49634703196347
+midday,Queens Village,3072,1.4027397260273973
+midday,Queensboro Hill,947,0.4324200913242009
+midday,Queensbridge/Ravenswood,12210,5.575342465753424
+midday,Randalls Island,675,0.3082191780821918
+midday,Red Hook,4209,1.9219178082191781
+midday,Rego Park,3899,1.780365296803653
+midday,Richmond Hill,9974,4.554337899543379
+midday,Ridgewood,4817,2.199543378995434
+midday,Rikers Island,5,0.00228310502283105
+midday,Riverdale/North Riverdale/Fieldston,1916,0.8748858447488584
+midday,Rockaway Park,1028,0.4694063926940639
+midday,Roosevelt Island,1944,0.8876712328767123
+midday,Rosedale,1351,0.6168949771689498
+midday,Rossville/Woodrow,4,0.0018264840182648401
+midday,Saint Albans,4839,2.2095890410958905
+midday,Saint George/New Brighton,37,0.016894977168949773
+midday,Saint Michaels Cemetery/Woodside,1707,0.7794520547945205
+midday,Schuylerville/Edgewater Park,1651,0.7538812785388128
+midday,Seaport,22767,10.395890410958904
+midday,Sheepshead Bay,4375,1.9977168949771689
+midday,SoHo,102405,46.76027397260274
+midday,Soundview/Bruckner,2377,1.0853881278538813
+midday,Soundview/Castle Hill,4817,2.199543378995434
+midday,South Beach/Dongan Hills,121,0.055251141552511415
+midday,South Jamaica,5393,2.4625570776255707
+midday,South Ozone Park,12405,5.664383561643835
+midday,South Williamsburg,2449,1.1182648401826485
+midday,Springfield Gardens North,3421,1.5621004566210046
+midday,Springfield Gardens South,3159,1.4424657534246574
+midday,Spuyten Duyvil/Kingsbridge,2881,1.315525114155251
+midday,Stapleton,92,0.04200913242009133
+midday,Starrett City,4981,2.274429223744292
+midday,Steinway,8329,3.8031963470319634
+midday,Stuy Town/Peter Cooper Village,28819,13.159360730593606
+midday,Stuyvesant Heights,14745,6.732876712328767
+midday,Sunnyside,23279,10.629680365296803
+midday,Sunset Park East,3045,1.3904109589041096
+midday,Sunset Park West,6092,2.7817351598173516
+midday,Sutton Place/Turtle Bay North,239502,109.36164383561643
+midday,Times Sq/Theatre District,367578,167.84383561643835
+midday,TriBeCa/Civic Center,173313,79.13835616438357
+midday,Two Bridges/Seward Park,30388,13.875799086757992
+midday,UN/Turtle Bay South,167135,76.31735159817352
+midday,Union Sq,342185,156.24885844748857
+midday,University Heights/Morris Heights,4026,1.8383561643835618
+midday,Upper East Side North,744231,339.8315068493151
+midday,Upper East Side South,802034,366.2255707762557
+midday,Upper West Side North,321511,146.80867579908676
+midday,Upper West Side South,431246,196.91598173515982
+midday,Van Cortlandt Park,418,0.1908675799086758
+midday,Van Cortlandt Village,2764,1.2621004566210046
+midday,Van Nest/Morris Park,3170,1.447488584474886
+midday,Washington Heights North,12602,5.754337899543379
+midday,Washington Heights South,29720,13.570776255707763
+midday,West Brighton,18,0.00821917808219178
+midday,West Chelsea/Hudson Yards,244282,111.54429223744292
+midday,West Concourse,5064,2.3123287671232875
+midday,West Farms/Bronx River,2107,0.9621004566210045
+midday,West Village,175212,80.0054794520548
+midday,Westchester Village/Unionport,2233,1.019634703196347
+midday,Westerleigh,32,0.014611872146118721
+midday,Whitestone,960,0.4383561643835616
+midday,Willets Point,79,0.036073059360730596
+midday,Williamsbridge/Olinville,4445,2.029680365296804
+midday,Williamsburg (North Side),9211,4.205936073059361
+midday,Williamsburg (South Side),10754,4.910502283105023
+midday,Windsor Terrace,1827,0.8342465753424657
+midday,Woodhaven,3822,1.7452054794520548
+midday,Woodlawn/Wakefield,2154,0.9835616438356164
+midday,Woodside,7446,3.4
+midday,World Trade Center,85224,38.915068493150685
+midday,Yorkville East,230976,105.46849315068494
+midday,Yorkville West,266212,121.5579908675799
+midday,,23846,10.888584474885844
+morning_peak,Allerton/Pelham Gardens,1686,1.1547945205479453
+morning_peak,Alphabet City,23200,15.89041095890411
+morning_peak,Arden Heights,3,0.002054794520547945
+morning_peak,Arrochar/Fort Wadsworth,307,0.21027397260273972
+morning_peak,Astoria,20303,13.906164383561643
+morning_peak,Astoria Park,62,0.04246575342465753
+morning_peak,Auburndale,506,0.34657534246575344
+morning_peak,Baisley Park,5859,4.013013698630137
+morning_peak,Bath Beach,996,0.6821917808219178
+morning_peak,Battery Park,612,0.4191780821917808
+morning_peak,Battery Park City,36824,25.221917808219178
+morning_peak,Bay Ridge,5220,3.5753424657534247
+morning_peak,Bay Terrace/Fort Totten,465,0.3184931506849315
+morning_peak,Bayside,766,0.5246575342465754
+morning_peak,Bedford,9980,6.835616438356165
+morning_peak,Bedford Park,3651,2.500684931506849
+morning_peak,Bellerose,1327,0.9089041095890411
+morning_peak,Belmont,1597,1.0938356164383563
+morning_peak,Bensonhurst East,1776,1.2164383561643837
+morning_peak,Bensonhurst West,2659,1.8212328767123287
+morning_peak,Bloomfield/Emerson Hill,65,0.04452054794520548
+morning_peak,Bloomingdale,25226,17.278082191780822
+morning_peak,Boerum Hill,7279,4.985616438356164
+morning_peak,Borough Park,2476,1.6958904109589041
+morning_peak,Breezy Point/Fort Tilden/Riis Beach,24,0.01643835616438356
+morning_peak,Briarwood/Jamaica Hills,3374,2.3109589041095893
+morning_peak,Brighton Beach,1564,1.0712328767123287
+morning_peak,Broad Channel,34,0.023287671232876714
+morning_peak,Bronx Park,225,0.1541095890410959
+morning_peak,Bronxdale,2367,1.6212328767123287
+morning_peak,Brooklyn Heights,9029,6.184246575342466
+morning_peak,Brooklyn Navy Yard,477,0.3267123287671233
+morning_peak,Brownsville,10254,7.023287671232877
+morning_peak,Bushwick North,4725,3.2363013698630136
+morning_peak,Bushwick South,12218,8.368493150684932
+morning_peak,Cambria Heights,1810,1.2397260273972603
+morning_peak,Canarsie,13795,9.448630136986301
+morning_peak,Carroll Gardens,4514,3.091780821917808
+morning_peak,Central Harlem,41865,28.674657534246574
+morning_peak,Central Harlem North,38266,26.20958904109589
+morning_peak,Central Park,54529,37.3486301369863
+morning_peak,Charleston/Tottenville,3,0.002054794520547945
+morning_peak,Chinatown,7162,4.905479452054794
+morning_peak,City Island,83,0.05684931506849315
+morning_peak,Claremont/Bathgate,3097,2.121232876712329
+morning_peak,Clinton East,130886,89.64794520547945
+morning_peak,Clinton Hill,8585,5.88013698630137
+morning_peak,Clinton West,55860,38.26027397260274
+morning_peak,Co-Op City,5567,3.813013698630137
+morning_peak,Cobble Hill,4192,2.871232876712329
+morning_peak,College Point,810,0.5547945205479452
+morning_peak,Columbia Street,1380,0.9452054794520548
+morning_peak,Coney Island,4960,3.3972602739726026
+morning_peak,Corona,3779,2.5883561643835615
+morning_peak,Country Club,198,0.13561643835616438
+morning_peak,Crotona Park,106,0.07260273972602739
+morning_peak,Crotona Park East,2640,1.8082191780821917
+morning_peak,Crown Heights North,20907,14.31986301369863
+morning_peak,Crown Heights South,6770,4.636986301369863
+morning_peak,Cypress Hills,5636,3.8602739726027395
+morning_peak,DUMBO/Vinegar Hill,5942,4.0698630136986305
+morning_peak,Douglaston,411,0.2815068493150685
+morning_peak,Downtown Brooklyn/MetroTech,7552,5.1726027397260275
+morning_peak,Dyker Heights,1393,0.9541095890410959
+morning_peak,East Chelsea,105705,72.40068493150685
+morning_peak,East Concourse/Concourse Village,6508,4.457534246575342
+morning_peak,East Elmhurst,11898,8.14931506849315
+morning_peak,East Flatbush/Farragut,9180,6.287671232876712
+morning_peak,East Flatbush/Remsen Village,10045,6.88013698630137
+morning_peak,East Flushing,528,0.36164383561643837
+morning_peak,East Harlem North,40362,27.645205479452056
+morning_peak,East Harlem South,67202,46.02876712328767
+morning_peak,East New York,18410,12.60958904109589
+morning_peak,East New York/Pennsylvania Avenue,5066,3.46986301369863
+morning_peak,East Tremont,4209,2.882876712328767
+morning_peak,East Village,95438,65.36849315068493
+morning_peak,East Williamsburg,6585,4.510273972602739
+morning_peak,Eastchester,3073,2.1047945205479452
+morning_peak,Elmhurst,4584,3.1397260273972605
+morning_peak,Elmhurst/Maspeth,2516,1.7232876712328766
+morning_peak,Eltingville/Annadale/Prince's Bay,6,0.00410958904109589
+morning_peak,Erasmus,5537,3.7924657534246577
+morning_peak,Far Rockaway,3600,2.4657534246575343
+morning_peak,Financial District North,30427,20.84041095890411
+morning_peak,Financial District South,9718,6.656164383561644
+morning_peak,Flatbush/Ditmas Park,13825,9.469178082191782
+morning_peak,Flatiron,73129,50.08835616438356
+morning_peak,Flatlands,9607,6.58013698630137
+morning_peak,Flushing,1910,1.3082191780821917
+morning_peak,Flushing Meadows-Corona Park,801,0.5486301369863014
+morning_peak,Fordham South,1720,1.178082191780822
+morning_peak,Forest Hills,5805,3.9760273972602738
+morning_peak,Forest Park/Highland Park,217,0.14863013698630137
+morning_peak,Fort Greene,8635,5.914383561643835
+morning_peak,Fresh Meadows,589,0.40342465753424656
+morning_peak,Freshkills Park,2,0.0013698630136986301
+morning_peak,Garment District,87538,59.95753424657534
+morning_peak,Glen Oaks,621,0.42534246575342466
+morning_peak,Glendale,1992,1.3643835616438356
+morning_peak,Gowanus,1791,1.2267123287671233
+morning_peak,Gramercy,115300,78.97260273972603
+morning_peak,Gravesend,2018,1.3821917808219177
+morning_peak,Great Kills,44,0.030136986301369864
+morning_peak,Green-Wood Cemetery,19,0.013013698630136987
+morning_peak,Greenpoint,7062,4.836986301369863
+morning_peak,Greenwich Village North,61287,41.977397260273975
+morning_peak,Greenwich Village South,26075,17.85958904109589
+morning_peak,Grymes Hill/Clifton,215,0.14726027397260275
+morning_peak,Hamilton Heights,24406,16.716438356164385
+morning_peak,Hammels/Arverne,4168,2.8547945205479452
+morning_peak,Heartland Village/Todt Hill,78,0.05342465753424658
+morning_peak,Highbridge,4001,2.7404109589041097
+morning_peak,Highbridge Park,227,0.15547945205479452
+morning_peak,Hillcrest/Pomonok,2170,1.4863013698630136
+morning_peak,Hollis,2258,1.5465753424657533
+morning_peak,Homecrest,1770,1.2123287671232876
+morning_peak,Howard Beach,1540,1.0547945205479452
+morning_peak,Hudson Sq,24027,16.456849315068492
+morning_peak,Hunts Point,2411,1.6513698630136986
+morning_peak,Inwood,4824,3.304109589041096
+morning_peak,Inwood Hill Park,254,0.17397260273972603
+morning_peak,JFK Airport,191352,131.06301369863013
+morning_peak,Jackson Heights,10491,7.185616438356164
+morning_peak,Jamaica,6148,4.210958904109589
+morning_peak,Jamaica Bay,10,0.00684931506849315
+morning_peak,Jamaica Estates,2751,1.8842465753424658
+morning_peak,Kensington,3796,2.6
+morning_peak,Kew Gardens,2514,1.7219178082191782
+morning_peak,Kew Gardens Hills,2036,1.3945205479452054
+morning_peak,Kingsbridge Heights,2194,1.5027397260273974
+morning_peak,Kips Bay,70110,48.02054794520548
+morning_peak,LaGuardia Airport,102049,69.89657534246575
+morning_peak,Laurelton,2123,1.454109589041096
+morning_peak,Lenox Hill East,149552,102.43287671232876
+morning_peak,Lenox Hill West,155608,106.58082191780822
+morning_peak,Lincoln Square East,142873,97.8582191780822
+morning_peak,Lincoln Square West,104633,71.66643835616438
+morning_peak,Little Italy/NoLiTa,19096,13.07945205479452
+morning_peak,Long Island City/Hunters Point,13290,9.102739726027398
+morning_peak,Long Island City/Queens Plaza,8250,5.6506849315068495
+morning_peak,Longwood,2266,1.5520547945205478
+morning_peak,Lower East Side,30027,20.566438356164383
+morning_peak,Madison,1720,1.178082191780822
+morning_peak,Manhattan Beach,688,0.4712328767123288
+morning_peak,Manhattan Valley,67303,46.097945205479455
+morning_peak,Manhattanville,12175,8.33904109589041
+morning_peak,Marble Hill,660,0.4520547945205479
+morning_peak,Marine Park/Floyd Bennett Field,87,0.05958904109589041
+morning_peak,Marine Park/Mill Basin,2746,1.8808219178082193
+morning_peak,Mariners Harbor,45,0.030821917808219176
+morning_peak,Maspeth,4161,2.85
+morning_peak,Meatpacking/West Village West,35106,24.045205479452054
+morning_peak,Melrose South,4519,3.095205479452055
+morning_peak,Middle Village,2259,1.5472602739726027
+morning_peak,Midtown Center,139125,95.29109589041096
+morning_peak,Midtown East,171173,117.24178082191781
+morning_peak,Midtown North,93156,63.8054794520548
+morning_peak,Midtown South,79080,54.16438356164384
+morning_peak,Midwood,2987,2.0458904109589042
+morning_peak,Morningside Heights,36870,25.253424657534246
+morning_peak,Morrisania/Melrose,4975,3.4075342465753424
+morning_peak,Mott Haven/Port Morris,7702,5.2753424657534245
+morning_peak,Mount Hope,3892,2.665753424657534
+morning_peak,Murray Hill,145846,99.8945205479452
+morning_peak,Murray Hill-Queens,1034,0.7082191780821918
+morning_peak,New Dorp/Midland Beach,108,0.07397260273972603
+morning_peak,Newark Airport,770,0.5273972602739726
+morning_peak,North Corona,1408,0.9643835616438357
+morning_peak,Norwood,2517,1.723972602739726
+morning_peak,Oakland Gardens,790,0.541095890410959
+morning_peak,Oakwood,62,0.04246575342465753
+morning_peak,Ocean Hill,9906,6.784931506849315
+morning_peak,Ocean Parkway South,922,0.6315068493150685
+morning_peak,Old Astoria,9356,6.4082191780821915
+morning_peak,Outside of NYC,1844,1.263013698630137
+morning_peak,Ozone Park,1425,0.976027397260274
+morning_peak,Park Slope,6026,4.127397260273972
+morning_peak,Parkchester,6511,4.4595890410958905
+morning_peak,Pelham Bay,1152,0.7890410958904109
+morning_peak,Pelham Bay Park,144,0.09863013698630137
+morning_peak,Pelham Parkway,2152,1.473972602739726
+morning_peak,Penn Station/Madison Sq West,223839,153.31438356164384
+morning_peak,Port Richmond,13,0.008904109589041096
+morning_peak,Prospect Heights,3577,2.45
+morning_peak,Prospect Park,458,0.3136986301369863
+morning_peak,Prospect-Lefferts Gardens,13320,9.123287671232877
+morning_peak,Queens Village,4251,2.9116438356164385
+morning_peak,Queensboro Hill,719,0.49246575342465754
+morning_peak,Queensbridge/Ravenswood,7349,5.0335616438356166
+morning_peak,Randalls Island,307,0.21027397260273972
+morning_peak,Red Hook,6720,4.602739726027397
+morning_peak,Rego Park,2677,1.8335616438356164
+morning_peak,Richmond Hill,7336,5.024657534246575
+morning_peak,Ridgewood,4927,3.3746575342465754
+morning_peak,Rikers Island,2,0.0013698630136986301
+morning_peak,Riverdale/North Riverdale/Fieldston,1425,0.976027397260274
+morning_peak,Rockaway Park,746,0.510958904109589
+morning_peak,Roosevelt Island,1628,1.115068493150685
+morning_peak,Rosedale,1777,1.2171232876712328
+morning_peak,Rossville/Woodrow,6,0.00410958904109589
+morning_peak,Saint Albans,5707,3.908904109589041
+morning_peak,Saint George/New Brighton,54,0.036986301369863014
+morning_peak,Saint Michaels Cemetery/Woodside,722,0.4945205479452055
+morning_peak,Schuylerville/Edgewater Park,2400,1.643835616438356
+morning_peak,Seaport,6695,4.585616438356165
+morning_peak,Sheepshead Bay,3044,2.084931506849315
+morning_peak,SoHo,18108,12.402739726027397
+morning_peak,Soundview/Bruckner,3922,2.686301369863014
+morning_peak,Soundview/Castle Hill,6714,4.598630136986301
+morning_peak,South Beach/Dongan Hills,129,0.08835616438356164
+morning_peak,South Jamaica,5596,3.8328767123287673
+morning_peak,South Ozone Park,8089,5.5404109589041095
+morning_peak,South Williamsburg,1534,1.0506849315068494
+morning_peak,Springfield Gardens North,4028,2.758904109589041
+morning_peak,Springfield Gardens South,2689,1.8417808219178082
+morning_peak,Spuyten Duyvil/Kingsbridge,2245,1.5376712328767124
+morning_peak,Stapleton,384,0.26301369863013696
+morning_peak,Starrett City,3879,2.6568493150684933
+morning_peak,Steinway,5662,3.878082191780822
+morning_peak,Stuy Town/Peter Cooper Village,21494,14.721917808219178
+morning_peak,Stuyvesant Heights,13502,9.247945205479452
+morning_peak,Sunnyside,16956,11.613698630136986
+morning_peak,Sunset Park East,2057,1.408904109589041
+morning_peak,Sunset Park West,3575,2.4486301369863015
+morning_peak,Sutton Place/Turtle Bay North,113645,77.83904109589041
+morning_peak,Times Sq/Theatre District,120381,82.4527397260274
+morning_peak,TriBeCa/Civic Center,59743,40.91986301369863
+morning_peak,Two Bridges/Seward Park,21030,14.404109589041095
+morning_peak,UN/Turtle Bay South,70014,47.95479452054794
+morning_peak,Union Sq,85409,58.49931506849315
+morning_peak,University Heights/Morris Heights,5133,3.515753424657534
+morning_peak,Upper East Side North,299791,205.336301369863
+morning_peak,Upper East Side South,232259,159.08150684931508
+morning_peak,Upper West Side North,151174,103.54383561643836
+morning_peak,Upper West Side South,161027,110.29246575342465
+morning_peak,Van Cortlandt Park,479,0.32808219178082193
+morning_peak,Van Cortlandt Village,3466,2.373972602739726
+morning_peak,Van Nest/Morris Park,1918,1.3136986301369864
+morning_peak,Washington Heights North,11209,7.677397260273972
+morning_peak,Washington Heights South,23505,16.09931506849315
+morning_peak,West Brighton,46,0.031506849315068496
+morning_peak,West Chelsea/Hudson Yards,50909,34.86917808219178
+morning_peak,West Concourse,5019,3.4376712328767125
+morning_peak,West Farms/Bronx River,3892,2.665753424657534
+morning_peak,West Village,74161,50.79520547945206
+morning_peak,Westchester Village/Unionport,3148,2.1561643835616437
+morning_peak,Westerleigh,73,0.05
+morning_peak,Whitestone,606,0.41506849315068495
+morning_peak,Willets Point,15,0.010273972602739725
+morning_peak,Williamsbridge/Olinville,5652,3.871232876712329
+morning_peak,Williamsburg (North Side),4292,2.9397260273972603
+morning_peak,Williamsburg (South Side),7446,5.1
+morning_peak,Windsor Terrace,1910,1.3082191780821917
+morning_peak,Woodhaven,4888,3.347945205479452
+morning_peak,Woodlawn/Wakefield,3406,2.3328767123287673
+morning_peak,Woodside,6574,4.502739726027397
+morning_peak,World Trade Center,15889,10.882876712328768
+morning_peak,Yorkville East,155508,106.5123287671233
+morning_peak,Yorkville West,143210,98.08904109589041
+morning_peak,,10727,7.347260273972603

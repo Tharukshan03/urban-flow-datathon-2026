@@ -1,0 +1,101 @@
+time_bucket,pickup_zone_name,dropoff_zone_name,trip_count
+evening_peak,Upper East Side South,Upper East Side North,83859
+evening_peak,Upper East Side North,Upper East Side South,73271
+evening_peak,Upper East Side South,Upper East Side South,59530
+evening_peak,Upper East Side North,Upper East Side North,54748
+evening_peak,Midtown Center,Upper East Side South,46601
+evening_peak,Midtown Center,Upper East Side North,38530
+evening_peak,Lincoln Square East,Upper West Side South,32595
+evening_peak,Upper West Side South,Lincoln Square East,31812
+evening_peak,Upper East Side South,Midtown Center,30753
+evening_peak,Midtown East,Upper East Side South,29181
+evening_peak,Upper West Side South,Upper West Side North,29044
+evening_peak,Upper East Side North,Lenox Hill West,27796
+evening_peak,Upper East Side South,Lincoln Square East,27739
+evening_peak,Midtown Center,Union Sq,27669
+evening_peak,Upper East Side South,Lenox Hill West,27524
+evening_peak,Upper East Side South,Yorkville West,27340
+evening_peak,Upper West Side North,Upper West Side South,26810
+evening_peak,Upper East Side North,Upper West Side South,26513
+evening_peak,JFK Airport,Times Sq/Theatre District,26455
+evening_peak,Midtown Center,Midtown Center,25476
+evening_peak,Upper East Side North,Lincoln Square East,25191
+evening_peak,Midtown East,Upper East Side North,25132
+evening_peak,Lenox Hill West,Upper East Side North,25126
+evening_peak,Upper East Side South,Midtown East,25066
+evening_peak,JFK Airport,Outside of NYC,24898
+late_night,Upper East Side South,Upper East Side North,46364
+late_night,West Village,East Village,37249
+late_night,JFK Airport,Outside of NYC,34144
+late_night,East Village,East Village,33168
+late_night,East Village,Murray Hill,30568
+late_night,Upper East Side South,Upper East Side South,30192
+late_night,East Village,Gramercy,27852
+late_night,East Village,Lower East Side,27122
+late_night,Midtown Center,Upper East Side North,26902
+late_night,East Village,West Village,26835
+late_night,Lower East Side,East Village,25510
+late_night,Clinton East,East Chelsea,25249
+late_night,Lincoln Square East,Upper West Side South,24876
+late_night,Greenwich Village South,East Village,23989
+late_night,JFK Airport,JFK Airport,23529
+late_night,East Village,Kips Bay,22943
+late_night,West Village,TriBeCa/Civic Center,22790
+late_night,Lincoln Square East,Upper West Side North,22582
+late_night,Midtown Center,Upper East Side South,22207
+late_night,Clinton East,Clinton East,21603
+late_night,Lincoln Square East,Upper East Side North,21574
+late_night,West Village,East Chelsea,20670
+late_night,West Village,Gramercy,20056
+late_night,Times Sq/Theatre District,Penn Station/Madison Sq West,19889
+late_night,JFK Airport,Flushing Meadows-Corona Park,19601
+midday,Upper East Side South,Upper East Side North,126637
+midday,Upper East Side North,Upper East Side South,120366
+midday,Upper East Side South,Upper East Side South,91859
+midday,Upper East Side North,Upper East Side North,85890
+midday,Upper East Side South,Midtown Center,57558
+midday,Midtown Center,Upper East Side South,56132
+midday,Upper East Side South,Midtown East,42019
+midday,Upper West Side South,Lincoln Square East,41353
+midday,Lenox Hill West,Upper East Side North,40034
+midday,Upper West Side South,Upper West Side North,39188
+midday,Upper East Side North,Midtown Center,38633
+midday,Penn Station/Madison Sq West,Times Sq/Theatre District,38002
+midday,Midtown Center,Upper East Side North,37621
+midday,Upper East Side North,Lenox Hill West,37396
+midday,Upper West Side North,Upper West Side South,36606
+midday,LaGuardia Airport,Times Sq/Theatre District,35368
+midday,Lincoln Square East,Upper West Side South,35140
+midday,Lenox Hill West,Upper East Side South,35084
+midday,Upper East Side South,Lenox Hill West,34537
+midday,Upper East Side North,Upper West Side South,34237
+midday,Midtown East,Upper East Side South,33807
+midday,Lenox Hill East,Upper East Side North,33190
+midday,Lincoln Square East,Upper East Side South,32015
+midday,Yorkville West,Upper East Side North,31965
+midday,Upper East Side South,Lincoln Square East,31650
+morning_peak,Upper East Side North,Midtown Center,35293
+morning_peak,Upper East Side North,Upper East Side South,34622
+morning_peak,Upper East Side South,Upper East Side North,33437
+morning_peak,Upper East Side North,Upper East Side North,26818
+morning_peak,Upper East Side South,Midtown Center,25882
+morning_peak,Upper East Side North,Midtown East,23759
+morning_peak,Penn Station/Madison Sq West,Union Sq,21727
+morning_peak,Penn Station/Madison Sq West,Midtown Center,21371
+morning_peak,Upper East Side South,Upper East Side South,20854
+morning_peak,Upper East Side South,Midtown East,19857
+morning_peak,Penn Station/Madison Sq West,Times Sq/Theatre District,14873
+morning_peak,Upper East Side North,Lenox Hill East,14866
+morning_peak,Lenox Hill West,Upper East Side North,14695
+morning_peak,Yorkville East,Upper East Side North,14279
+morning_peak,Yorkville East,Lenox Hill East,12943
+morning_peak,Garment District,Midtown Center,12927
+morning_peak,Clinton East,Midtown Center,12864
+morning_peak,Lincoln Square East,Midtown Center,12864
+morning_peak,Penn Station/Madison Sq West,Murray Hill,12813
+morning_peak,Upper East Side South,Lenox Hill East,12709
+morning_peak,Upper East Side North,Midtown North,12685
+morning_peak,Lenox Hill West,Midtown Center,12486
+morning_peak,Lenox Hill West,Midtown East,12219
+morning_peak,Times Sq/Theatre District,LaGuardia Airport,12217
+morning_peak,Lenox Hill East,Upper East Side North,11900

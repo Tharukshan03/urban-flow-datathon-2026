@@ -1,0 +1,252 @@
+time_bucket,pickup_borough_name,dropoff_borough_name,trip_count
+evening_peak,Manhattan,Manhattan,9842932
+evening_peak,Queens,Manhattan,568105
+evening_peak,Queens,Queens,265795
+evening_peak,Manhattan,Brooklyn,247900
+evening_peak,Manhattan,Queens,226925
+evening_peak,Brooklyn,Brooklyn,181854
+evening_peak,Queens,Brooklyn,166312
+evening_peak,Brooklyn,Manhattan,86113
+evening_peak,Manhattan,Bronx,65052
+evening_peak,Brooklyn,Queens,36720
+evening_peak,Queens,,32011
+evening_peak,Bronx,Bronx,27223
+evening_peak,Queens,Bronx,23328
+evening_peak,Bronx,Manhattan,21834
+evening_peak,Manhattan,EWR,16629
+evening_peak,Manhattan,Unknown,13676
+evening_peak,Manhattan,,13559
+evening_peak,Unknown,Manhattan,8353
+evening_peak,Unknown,Unknown,7683
+evening_peak,Brooklyn,Bronx,7399
+evening_peak,Bronx,Brooklyn,5622
+evening_peak,Bronx,Queens,5248
+evening_peak,,,3560
+evening_peak,EWR,EWR,1883
+evening_peak,Queens,Staten Island,1377
+evening_peak,Queens,EWR,969
+evening_peak,Manhattan,Staten Island,928
+evening_peak,Queens,Unknown,738
+evening_peak,Unknown,Queens,660
+evening_peak,Unknown,Brooklyn,560
+evening_peak,,EWR,509
+evening_peak,Brooklyn,,387
+evening_peak,Staten Island,Brooklyn,360
+evening_peak,,Manhattan,242
+evening_peak,Brooklyn,Staten Island,226
+evening_peak,,Queens,183
+evening_peak,Staten Island,Staten Island,170
+evening_peak,Bronx,,104
+evening_peak,Brooklyn,EWR,95
+evening_peak,Staten Island,Manhattan,95
+evening_peak,Unknown,,93
+evening_peak,Unknown,Bronx,78
+evening_peak,EWR,,67
+evening_peak,Brooklyn,Unknown,59
+evening_peak,,Brooklyn,49
+evening_peak,Unknown,EWR,36
+evening_peak,EWR,Manhattan,32
+evening_peak,,Bronx,27
+evening_peak,,Unknown,19
+evening_peak,Staten Island,Queens,13
+evening_peak,Bronx,Unknown,7
+evening_peak,Staten Island,,7
+evening_peak,Bronx,Staten Island,6
+evening_peak,EWR,Unknown,6
+evening_peak,EWR,Queens,5
+evening_peak,Bronx,EWR,4
+evening_peak,EWR,Brooklyn,4
+evening_peak,Staten Island,EWR,4
+evening_peak,Unknown,Staten Island,4
+evening_peak,Staten Island,Bronx,3
+evening_peak,,Staten Island,3
+evening_peak,EWR,Staten Island,2
+late_night,Manhattan,Manhattan,10630070
+late_night,Queens,Manhattan,642697
+late_night,Manhattan,Brooklyn,534553
+late_night,Queens,Queens,484608
+late_night,Manhattan,Queens,325192
+late_night,Brooklyn,Brooklyn,308471
+late_night,Queens,Brooklyn,271160
+late_night,Brooklyn,Manhattan,218961
+late_night,Manhattan,Bronx,102722
+late_night,Brooklyn,Queens,86341
+late_night,Bronx,Bronx,48729
+late_night,Queens,,44602
+late_night,Bronx,Manhattan,34306
+late_night,Queens,Bronx,33465
+late_night,Manhattan,,30335
+late_night,Brooklyn,Bronx,13374
+late_night,Manhattan,Unknown,11772
+late_night,Manhattan,EWR,8604
+late_night,,,7849
+late_night,Bronx,Queens,7732
+late_night,Unknown,Manhattan,7409
+late_night,Unknown,Unknown,7045
+late_night,Bronx,Brooklyn,5972
+late_night,Manhattan,Staten Island,2703
+late_night,Queens,Staten Island,1734
+late_night,Brooklyn,,1092
+late_night,Brooklyn,Staten Island,1065
+late_night,Unknown,Queens,872
+late_night,EWR,EWR,800
+late_night,Unknown,Brooklyn,757
+late_night,Queens,Unknown,745
+late_night,Queens,EWR,578
+late_night,Staten Island,Brooklyn,560
+late_night,Staten Island,Staten Island,467
+late_night,,Manhattan,354
+late_night,Bronx,,290
+late_night,,Queens,220
+late_night,,EWR,205
+late_night,Staten Island,Manhattan,156
+late_night,Brooklyn,Unknown,144
+late_night,Unknown,,123
+late_night,Brooklyn,EWR,99
+late_night,Staten Island,Queens,79
+late_night,Unknown,Bronx,78
+late_night,,Brooklyn,75
+late_night,,Unknown,57
+late_night,,Bronx,51
+late_night,EWR,Manhattan,48
+late_night,EWR,,35
+late_night,Unknown,EWR,24
+late_night,Bronx,Unknown,18
+late_night,,Staten Island,15
+late_night,Bronx,Staten Island,13
+late_night,Staten Island,Bronx,12
+late_night,Staten Island,,7
+late_night,EWR,Brooklyn,6
+late_night,Unknown,Staten Island,4
+late_night,EWR,Queens,3
+late_night,Staten Island,EWR,3
+late_night,Bronx,EWR,2
+late_night,EWR,Bronx,2
+late_night,EWR,Staten Island,2
+late_night,EWR,Unknown,2
+late_night,Staten Island,Unknown,2
+midday,Manhattan,Manhattan,11378351
+midday,Queens,Manhattan,713940
+midday,Manhattan,Queens,409185
+midday,Queens,Queens,334452
+midday,Brooklyn,Brooklyn,272631
+midday,Manhattan,Brooklyn,217791
+midday,Queens,Brooklyn,174887
+midday,Brooklyn,Manhattan,111935
+midday,Manhattan,Bronx,80027
+midday,Brooklyn,Queens,54930
+midday,Bronx,Manhattan,51402
+midday,Bronx,Bronx,39724
+midday,Manhattan,EWR,38857
+midday,Queens,,32936
+midday,Queens,Bronx,27460
+midday,Manhattan,,18696
+midday,Manhattan,Unknown,17674
+midday,Unknown,Manhattan,11674
+midday,Brooklyn,Bronx,11635
+midday,Bronx,Queens,10387
+midday,Bronx,Brooklyn,10351
+midday,Unknown,Unknown,10322
+midday,,,3920
+midday,EWR,EWR,2358
+midday,Queens,EWR,1367
+midday,Queens,Staten Island,1236
+midday,Unknown,Queens,1008
+midday,Manhattan,Staten Island,1005
+midday,Queens,Unknown,912
+midday,,EWR,729
+midday,Brooklyn,,655
+midday,Unknown,Brooklyn,568
+midday,Staten Island,Brooklyn,475
+midday,,Manhattan,320
+midday,Staten Island,Staten Island,307
+midday,,Queens,294
+midday,Brooklyn,Staten Island,260
+midday,Brooklyn,EWR,177
+midday,Bronx,,159
+midday,Staten Island,Manhattan,129
+midday,Unknown,,105
+midday,Unknown,EWR,85
+midday,,Brooklyn,81
+midday,Unknown,Bronx,80
+midday,EWR,,78
+midday,,Bronx,74
+midday,Brooklyn,Unknown,66
+midday,EWR,Manhattan,46
+midday,Staten Island,Queens,29
+midday,,Unknown,24
+midday,EWR,Queens,11
+midday,Bronx,Staten Island,10
+midday,EWR,Unknown,10
+midday,Bronx,Unknown,7
+midday,Staten Island,,7
+midday,Bronx,EWR,6
+midday,Unknown,Staten Island,4
+midday,Staten Island,Bronx,3
+midday,Staten Island,EWR,3
+midday,,Staten Island,3
+midday,EWR,Brooklyn,2
+midday,EWR,Bronx,1
+midday,EWR,Staten Island,1
+morning_peak,Manhattan,Manhattan,4383408
+morning_peak,Queens,Manhattan,254559
+morning_peak,Manhattan,Queens,181468
+morning_peak,Queens,Queens,179115
+morning_peak,Brooklyn,Brooklyn,175378
+morning_peak,Brooklyn,Manhattan,125889
+morning_peak,Queens,Brooklyn,78265
+morning_peak,Bronx,Manhattan,70555
+morning_peak,Manhattan,Brooklyn,63240
+morning_peak,Bronx,Bronx,41294
+morning_peak,Manhattan,Bronx,37928
+morning_peak,Brooklyn,Queens,37593
+morning_peak,Manhattan,EWR,13523
+morning_peak,Queens,Bronx,12957
+morning_peak,Queens,,11457
+morning_peak,Bronx,Brooklyn,9279
+morning_peak,Bronx,Queens,8615
+morning_peak,Brooklyn,Bronx,8075
+morning_peak,Manhattan,,7211
+morning_peak,Manhattan,Unknown,6442
+morning_peak,Unknown,Manhattan,5421
+morning_peak,Unknown,Unknown,4276
+morning_peak,,,1188
+morning_peak,Staten Island,Brooklyn,822
+morning_peak,EWR,EWR,733
+morning_peak,Unknown,Queens,635
+morning_peak,Brooklyn,,588
+morning_peak,Queens,EWR,471
+morning_peak,Manhattan,Staten Island,457
+morning_peak,Staten Island,Staten Island,451
+morning_peak,Queens,Staten Island,379
+morning_peak,Staten Island,Manhattan,311
+morning_peak,Queens,Unknown,285
+morning_peak,Brooklyn,Staten Island,255
+morning_peak,Unknown,Brooklyn,246
+morning_peak,Bronx,,230
+morning_peak,Brooklyn,EWR,219
+morning_peak,,Queens,217
+morning_peak,,EWR,216
+morning_peak,,Manhattan,132
+morning_peak,Unknown,Bronx,57
+morning_peak,,Bronx,54
+morning_peak,Unknown,,52
+morning_peak,Staten Island,Queens,39
+morning_peak,Unknown,EWR,38
+morning_peak,,Brooklyn,27
+morning_peak,Brooklyn,Unknown,24
+morning_peak,EWR,,23
+morning_peak,Staten Island,Bronx,10
+morning_peak,,Unknown,7
+morning_peak,Staten Island,,6
+morning_peak,Bronx,EWR,5
+morning_peak,EWR,Manhattan,5
+morning_peak,Bronx,Unknown,4
+morning_peak,EWR,Unknown,4
+morning_peak,Staten Island,EWR,4
+morning_peak,,Staten Island,3
+morning_peak,Bronx,Staten Island,2
+morning_peak,EWR,Brooklyn,2
+morning_peak,EWR,Staten Island,2
+morning_peak,Unknown,Staten Island,2
+morning_peak,EWR,Queens,1

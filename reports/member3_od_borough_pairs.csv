@@ -1,0 +1,65 @@
+pickup_borough_name,dropoff_borough_name,trip_count
+Manhattan,Manhattan,36234761
+Queens,Manhattan,2179301
+Queens,Queens,1263970
+Manhattan,Queens,1142770
+Manhattan,Brooklyn,1063484
+Brooklyn,Brooklyn,938334
+Queens,Brooklyn,690624
+Brooklyn,Manhattan,542898
+Manhattan,Bronx,285729
+Brooklyn,Queens,215584
+Bronx,Manhattan,178097
+Bronx,Bronx,156970
+Queens,,121006
+Queens,Bronx,97210
+Manhattan,EWR,77613
+Manhattan,,69801
+Manhattan,Unknown,49564
+Brooklyn,Bronx,40483
+Unknown,Manhattan,32857
+Bronx,Queens,31982
+Bronx,Brooklyn,31224
+Unknown,Unknown,29326
+,,16517
+EWR,EWR,5774
+Manhattan,Staten Island,5093
+Queens,Staten Island,4726
+Queens,EWR,3385
+Unknown,Queens,3175
+Brooklyn,,2722
+Queens,Unknown,2680
+Staten Island,Brooklyn,2217
+Unknown,Brooklyn,2131
+Brooklyn,Staten Island,1806
+,EWR,1659
+Staten Island,Staten Island,1395
+,Manhattan,1048
+,Queens,914
+Bronx,,783
+Staten Island,Manhattan,691
+Brooklyn,EWR,590
+Unknown,,373
+Brooklyn,Unknown,293
+Unknown,Bronx,293
+,Brooklyn,232
+,Bronx,206
+EWR,,203
+Unknown,EWR,183
+Staten Island,Queens,160
+EWR,Manhattan,131
+,Unknown,107
+Bronx,Unknown,36
+Bronx,Staten Island,31
+Staten Island,Bronx,28
+Staten Island,,27
+,Staten Island,24
+EWR,Unknown,22
+EWR,Queens,20
+Bronx,EWR,17
+EWR,Brooklyn,14
+Staten Island,EWR,14
+Unknown,Staten Island,14
+EWR,Staten Island,7
+EWR,Bronx,3
+Staten Island,Unknown,2
