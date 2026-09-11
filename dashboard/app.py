@@ -6,12 +6,23 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(Path(__file__).parent))
+from src.streamlit_ui import apply_product_styles, hero, kpi_grid, section_heading, sidebar_brand, status_banner
 from utils.data_loader import DATA_DIR, DataError, MODEL_NAMES, WINDOWS, load_data, preferred_model, route_view
 
-st.set_page_config(page_title='Urban Flow | Fleet planning', page_icon='🚕', layout='wide')
+st.set_page_config(page_title='Urban Flow | Operational intelligence', page_icon=':material/analytics:', layout='wide')
+apply_product_styles()
 TEAL, AMBER, INK = '#087F8C', '#D18B28', '#183444'
 SECTIONS = ['Executive Overview', 'Demand and Hotspots', 'OD and Time Patterns', 'Forecasting', 'Recommendations']
+SECTION_DESCRIPTIONS = {
+    'Executive Overview': 'A concise view of the verified operating picture.',
+    'Demand and Hotspots': 'Explore where and when retained pickup demand concentrates.',
+    'OD and Time Patterns': 'Review directed trip flows across zones, boroughs, and operating windows.',
+    'Forecasting': 'Compare validated methods and inspect saved forecast paths by horizon.',
+    'Recommendations': 'Review evidence-linked actions and their interpretation limits.',
+}
 
 
 @st.cache_data(show_spinner=False)
@@ -21,9 +32,12 @@ def get_data():
 
 def chart(fig, key):
     fig.update_layout(template='plotly_white', font={'family':'Arial', 'size':13, 'color':INK},
-                      margin={'l':10,'r':25,'t':65,'b':30}, title_font_size=18,
-                      legend_title_text='', paper_bgcolor='rgba(0,0,0,0)')
-    st.plotly_chart(fig, width='stretch', key=key, config={'displaylogo':False})
+                      margin={'l':15,'r':25,'t':65,'b':30}, title_font_size=18,
+                      legend_title_text='', paper_bgcolor='rgba(0,0,0,0)',
+                      plot_bgcolor='#FFFFFF', hoverlabel={'font_size':12})
+    with st.container(border=True, key=f'chart_card_{key}'):
+        st.plotly_chart(fig, width='stretch', key=key,
+                        config={'displaylogo':False, 'responsive':True})
 
 
 def bar(frame, label, count, title, unit='Retained trips', n=10, color=TEAL):
@@ -44,30 +58,35 @@ def history_caption():
 
 
 def executive(d):
-    st.title('Put demand at the center of fleet planning')
+    section_heading('Put demand at the center of fleet planning',
+                    'A decision-ready summary of demand concentration, time intensity, and forecast performance.')
     history_caption()
-    st.write('Where should vehicles stage, when should staffing increase, and which forecast should guide the next decision?')
     top_pu = d['pickups'].sort_values('pickup_count',ascending=False).iloc[0]
     top_do = d['destinations'].sort_values('dropoff_count',ascending=False).iloc[0]
     manhattan = d['borough_od'].loc[lambda x: x.pickup_borough_name.eq('Manhattan') & x.dropoff_borough_name.eq('Manhattan'), 'trip_count'].sum()
     route = d['od'].sort_values('trip_count',ascending=False).iloc[0]
-    a,b,c = st.columns(3)
-    a.metric('Retained trips analyzed', f"{d['total']:,}")
-    b.metric('Trips within Manhattan', f"{manhattan/d['total']:.2%}", help=f'{manhattan:,} Manhattan → Manhattan trips / all retained trips')
     m24 = d['test_metrics'].loc[lambda x:x.horizon_hours.eq(24)].iloc[0]
-    c.metric('Best 24h method · test MAE', MODEL_NAMES[preferred_model(m24)])
+    summary = d['time_summary'].copy()
+    evening = summary.loc[summary.time_bucket.eq('evening_peak'), 'mean_pickups_per_nominal_hour'].iloc[0]
+    morning = summary.loc[summary.time_bucket.eq('morning_peak'), 'mean_pickups_per_nominal_hour'].iloc[0]
+    kpi_grid([
+        {'label':'Processed trips', 'value':f"{d['total']:,}", 'context':'Retained analytical records'},
+        {'label':'Top pickup zone', 'value':top_pu.pickup_zone_name, 'context':f'{top_pu.pickup_count:,} pickups'},
+        {'label':'Manhattan → Manhattan', 'value':f"{manhattan/d['total']:.2%}", 'context':f'{manhattan:,} retained trips'},
+        {'label':'Evening vs morning', 'value':f'{evening/morning:.2f}×', 'context':'Normalized demand intensity'},
+        {'label':'Best 24h forecast', 'value':MODEL_NAMES[preferred_model(m24)], 'context':f'Test MAE {m24.improved_mae:.4f}'},
+    ])
     a,b = st.columns(2)
     with a.container(border=True):
-        st.caption('LEADING PICKUP HOTSPOT')
+        st.caption('LEADING PICKUP HOTSPOT · OPERATING FOCUS')
         st.subheader(top_pu.pickup_zone_name)
-        st.write(f'{top_pu.pickup_count:,} retained pickups')
+        st.write(f'**{top_pu.pickup_count:,}** retained pickups. Review staging capacity alongside observed queues and utilization.')
     with b.container(border=True):
-        st.caption('LEADING DESTINATION')
+        st.caption('LEADING DESTINATION · ARRIVAL CONCENTRATION')
         st.subheader(top_do.dropoff_zone_name)
-        st.write(f'{top_do.dropoff_count:,} retained dropoffs')
-    st.info(f'Strongest directed route: {route.pickup_zone_name} → {route.dropoff_zone_name} · {route.trip_count:,} trips')
+        st.write(f'**{top_do.dropoff_count:,}** retained dropoffs. Use destination concentration as context for repositioning review.')
+    st.info(f'**Strongest directed route:** {route.pickup_zone_name} → {route.dropoff_zone_name} · {route.trip_count:,} trips', icon=':material/route:')
     a,b = st.columns([1.45,1])
-    summary = d['time_summary'].copy()
     summary['Window'] = summary.time_bucket.map(WINDOWS)
     with a:
         chart(bar(summary,'Window','mean_pickups_per_nominal_hour','Evening has the highest demand intensity',
@@ -84,12 +103,11 @@ def executive(d):
 
 
 def demand(d):
-    st.title('Demand and Hotspots')
+    section_heading('Demand and hotspots', 'Explore pickup concentration, destinations, boroughs, and time-of-day demand.')
     history_caption()
     top_n = st.selectbox('Zones to show', [10,15,20], key='hotspot_count')
-    a,b = st.columns(2)
-    with a: chart(bar(d['pickups'],'pickup_zone_name','pickup_count','Pickup hotspots',n=top_n), 'pickup_hotspots')
-    with b: chart(bar(d['destinations'],'dropoff_zone_name','dropoff_count','Destination hotspots',n=top_n,color='#6554A4'), 'destination_hotspots')
+    chart(bar(d['pickups'],'pickup_zone_name','pickup_count','Pickup hotspots',n=top_n), 'pickup_hotspots')
+    chart(bar(d['destinations'],'dropoff_zone_name','dropoff_count','Destination hotspots',n=top_n,color='#6554A4'), 'destination_hotspots')
     st.caption('Rankings use readable labels; missing-label records remain in overall totals.')
     a,b = st.columns(2)
     boroughs = d['boroughs'].copy().fillna({'pickup_borough_name':'(Missing label)'})
@@ -117,7 +135,7 @@ def demand(d):
 
 
 def od_patterns(d):
-    st.title('OD and Time Patterns')
+    section_heading('OD and time patterns', 'Inspect directed route volume and borough movement by operating window.')
     history_caption()
     bucket = st.selectbox('Operating window',['All day',*WINDOWS],format_func=lambda x:WINDOWS.get(x,x),key='od_window')
     routes, scope = route_view(d,bucket)
@@ -148,16 +166,17 @@ def od_patterns(d):
 
 
 def forecasts(d):
-    st.title('Forecasting')
+    section_heading('Forecasting', 'Select a planning horizon, compare validated errors, and inspect archived forecast paths.')
     st.caption('SAVED FORECASTS · April 1–3, 2026 · These are archived outputs, not a live forecast')
-    a,b = st.columns([1,2])
-    horizon = a.selectbox('Forecast horizon',[24,48,72],format_func=lambda h:f'{h} hours',key='forecast_horizon')
-    data = d[f'forecast_{horizon}']
-    zone = b.selectbox('Forecast zone',['All 10 forecast zones',*sorted(data.pickup_zone_name.unique())],key='forecast_zone')
+    with st.container(border=True):
+        a,b = st.columns([1,2])
+        horizon = a.selectbox('Forecast horizon',[24,48,72],format_func=lambda h:f'{h} hours',key='forecast_horizon')
+        data = d[f'forecast_{horizon}']
+        zone = b.selectbox('Forecast zone',['All 10 forecast zones',*sorted(data.pickup_zone_name.unique())],key='forecast_zone')
     metric = d['test_metrics'].loc[lambda x:x.horizon_hours.eq(horizon)].iloc[0]
     method = preferred_model(metric)
-    st.success(f'{MODEL_NAMES[method]} has lower held-out test MAE at {horizon}h. '+
-               ('Use as a next-day tactical dispatch reference.' if horizon==24 else 'Use as a staffing and planning reference.'))
+    status_banner(f'{horizon}h recommended reference: {MODEL_NAMES[method]}',
+                  'Lower held-out test MAE. ' + ('Use as a next-day tactical dispatch reference.' if horizon==24 else 'Use as a staffing and planning reference.'))
     st.subheader('Held-out evaluation · historical test period')
     a,b,c = st.columns(3)
     a.metric('Seasonal baseline MAE',f'{metric.baseline_mae:.4f}')
@@ -186,23 +205,28 @@ def forecasts(d):
 
 
 def recommendations(d):
-    st.title('Recommendations')
-    st.write('Five actions grounded in the verified Member 3 findings. Validate vehicle availability and queue conditions before changing deployment.')
+    section_heading('Recommendations', 'Five evidence-linked actions for operational review and planning.')
+    st.info('Validate vehicle availability and queue conditions before changing deployment.', icon=':material/info:')
     titles = ['Review hotspot staging','Emphasize evening dispatch','Maintain late-night coverage','Check both route directions','Choose forecasts by horizon']
     for index,(title,text) in enumerate(zip(titles,d['recommendations']),1):
         with st.container(border=True):
-            st.subheader(f'{index}. {title}')
+            st.caption(f'RECOMMENDATION {index} · VERIFIED EVIDENCE')
+            st.subheader(title)
             st.markdown(text)
     st.caption('Recommendation wording is read directly from the bundled findings report. Evidence filenames refer to that original analysis; interactive equivalents appear in the preceding sections.')
     st.download_button('Download original findings report',d['report'],file_name='demand_spatial_findings.md',mime='text/markdown')
     st.info('No financial savings, idle-driving reduction or service improvement has been measured. These recommendations identify decisions to investigate, not proven business outcomes.')
 
 
-st.sidebar.title('Urban Flow')
-st.sidebar.caption('FLEET POSITIONING & STAFFING')
-section = st.sidebar.radio('Management view', SECTIONS, key='section')
-st.sidebar.divider()
-st.sidebar.caption('Historical coverage\n\nApr 2025–Mar 2026\n\nSaved forecasts\n\nApr 1–3, 2026')
+with st.sidebar:
+    sidebar_brand('Urban Flow Analytics', 'Operational intelligence for fleet and city planning.')
+    section = st.radio('Management view', SECTIONS, key='section')
+    st.caption(SECTION_DESCRIPTIONS[section])
+    st.markdown('##### Coverage')
+    st.caption('Historical: Apr 2025–Mar 2026  \nSaved forecasts: Apr 1–3, 2026')
+
+hero('Urban Flow Analytics', 'Operational intelligence dashboard',
+     'Verified demand, route, forecast, and spatial evidence for practical fleet planning.')
 try:
     data = get_data()
 except (DataError, OSError, ValueError, KeyError, IndexError) as exc:
@@ -211,5 +235,4 @@ except (DataError, OSError, ValueError, KeyError, IndexError) as exc:
     st.stop()
 {'Executive Overview':executive,'Demand and Hotspots':demand,'OD and Time Patterns':od_patterns,
  'Forecasting':forecasts,'Recommendations':recommendations}[section](data)
-st.divider()
 st.caption('Bonus Track 6 · Turning Taxi Data into Business Decisions · Source: verified Member 3 reporting snapshot')
