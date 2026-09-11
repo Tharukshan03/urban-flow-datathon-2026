@@ -224,3 +224,7 @@ __marimo__/
 !/data/processed/.gitkeep
 /data/splits/*
 !/data/splits/.gitkeep
+
+# Private competition submission artifacts
+/submission/
+/MergeConflicts_CodefestDatathon2026.zip
