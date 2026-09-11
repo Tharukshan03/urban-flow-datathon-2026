@@ -1,158 +1,74 @@
-"""Streamlit interface for the deterministic AI Mobility Assistant."""
+"""Streamlit interface for the AI Mobility Assistant."""
 
 from __future__ import annotations
 
-from pathlib import Path
-import sys
-
-import pandas as pd
 import streamlit as st
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(PROJECT_ROOT))
+from assistant.analytics import answer_question, load_bundle, question_examples
 
-from assistant.analytics import AssistantBundle, answer_question, load_bundle
-from src.streamlit_ui import (
-    apply_assistant_styles,
-    apply_product_styles,
-    hero,
-    query_card_header,
-    sidebar_brand,
-)
-
-st.set_page_config(
-    page_title='Urban Flow | Verified mobility assistant',
-    page_icon=':material/assistant:',
-    layout='wide',
-)
-apply_product_styles()
-apply_assistant_styles()
-
-EXAMPLE_QUESTIONS = (
-    'What are the top 5 pickup zones?',
-    'Which forecasting model should we use for 24 hours?',
-    'What is the 24-hour forecast for JFK Airport?',
-    'What should fleet managers do during evening peaks?',
-)
+st.set_page_config(page_title='Urban Flow | AI Mobility Assistant', page_icon='🧭', layout='wide')
 
 
 def _init_state() -> None:
-    st.session_state.setdefault('assistant_query', '')
-    st.session_state.setdefault('query_history', [])
-    st.session_state.setdefault('query_notice', '')
+    if 'messages' not in st.session_state:
+        st.session_state.messages = [
+            {
+                'role': 'assistant',
+                'content': 'Ask a question about demand, routes, forecasts or recommendations. I will answer only from the verified bundled analytics snapshot.',
+            }
+        ]
+    if 'prompt' not in st.session_state:
+        st.session_state.prompt = ''
 
 
 def _select_example(question: str) -> None:
-    """Populate the widget-bound query before the next input render."""
-    st.session_state['assistant_query'] = question
-    st.session_state['query_notice'] = ''
+    """Place a sidebar example into the editable question field on rerun."""
+    st.session_state.prompt = question
 
 
-def _submit_query(bundle: AssistantBundle) -> None:
-    """Run one predefined analytics route and prepend it to session history."""
-    question = st.session_state.get('assistant_query', '').strip()
-    if not question:
-        st.session_state['query_notice'] = 'Enter a mobility question before submitting.'
-        return
-
-    response = answer_question(question, bundle)
-    table = None if response.table is None else response.table.copy()
-    st.session_state['query_history'].insert(
-        0,
-        {'question': question, 'answer': response.body, 'table': table},
-    )
-    st.session_state['assistant_query'] = ''
-    st.session_state['query_notice'] = ''
-
-
-def _clear_history() -> None:
-    st.session_state['query_history'] = []
-    st.session_state['query_notice'] = ''
-
-
-def _render_history() -> None:
-    history = st.session_state['query_history']
-    heading, action = st.columns([4, 1], vertical_alignment='center')
-    heading.subheader('Analysis history')
-    action.button(
-        'Clear history',
-        key='clear_history',
-        icon=':material/delete_sweep:',
-        on_click=_clear_history,
-        disabled=not history,
-        width='stretch',
-    )
-
-    if not history:
-        with st.container(border=True):
-            st.markdown('**No completed queries in this session**')
-            st.caption('Choose an example or enter a question above. Verified responses will appear here.')
-        return
-
-    for index, entry in enumerate(history):
-        with st.container(border=True, key=f'history_{index}'):
-            query_card_header(entry['question'])
-            st.markdown(entry['answer'])
-            table = entry['table']
-            if isinstance(table, pd.DataFrame) and not table.empty:
-                st.dataframe(table, hide_index=True, width='stretch')
+def _render_message(message: dict[str, str]) -> None:
+    with st.chat_message(message['role']):
+        st.markdown(message['content'])
 
 
 def main() -> None:
     _init_state()
     bundle = load_bundle()
 
+    st.title('AI Mobility Assistant')
+    st.caption('Bonus Track 5 · Safe question answering over verified taxi analytics inputs')
+
     with st.sidebar:
-        sidebar_brand(
-            'Urban Flow AI Assistant',
-            'Bounded question answering over verified competition analytics.',
-            'Verified data only',
-        )
-        st.markdown('##### Example questions')
-        st.caption('Select a question to place it in the editable query field.')
-        for index, example in enumerate(EXAMPLE_QUESTIONS):
+        st.header('Capabilities')
+        st.write('The assistant answers questions about pickup hotspots, destination hotspots, borough demand, hourly and weekday demand, OD routes, time-window routes, forecast metrics, saved forecasts and operational recommendations.')
+        st.subheader('Example questions')
+        for example in question_examples():
             st.button(
                 example,
-                key=f'example_{index}',
+                use_container_width=True,
+                key=f'example::{example}',
                 on_click=_select_example,
                 args=(example,),
-                width='stretch',
             )
-        st.markdown('##### Safety boundary')
-        st.caption(
-            'Deterministic intent routing · predefined analytics functions · '
-            'no raw trip access · no arbitrary Python · no unrestricted SQL'
-        )
+        st.subheader('Safety')
+        st.write('No raw data, parquet files, model artifacts or arbitrary Python execution are exposed. Questions are routed to fixed analytics functions only.')
 
-    hero(
-        'Urban Flow AI Assistant',
-        'Verified mobility intelligence',
-        'Ask about hotspots, demand patterns, OD flows, forecasting, and operational recommendations.',
-    )
+    st.info('Try asking about the busiest pickup zones, the best 24-hour forecast model, or what fleet managers should do during evening peaks.')
 
-    with st.container(border=True, key='query_panel'):
-        st.subheader('Ask a mobility question')
-        st.caption('Responses are generated from checksum-validated bundled analytics inputs.')
-        st.text_input(
-            'Mobility question',
-            key='assistant_query',
-            placeholder='Ask about pickup hotspots, forecasts, OD flows, or demand patterns...',
-            icon=':material/search:',
-        )
-        st.button(
-            'Ask assistant',
-            key='ask_assistant',
-            type='primary',
-            icon=':material/arrow_forward:',
-            on_click=_submit_query,
-            args=(bundle,),
-            width='stretch',
-        )
-        if st.session_state['query_notice']:
-            st.warning(st.session_state['query_notice'], icon=':material/info:')
+    for message in st.session_state.messages:
+        _render_message(message)
 
-    _render_history()
-    st.caption('Bonus Track 5 · Deterministic analytics interface · Verified bundled inputs only')
+    with st.form('assistant-form', clear_on_submit=False):
+        question = st.text_input('Your question', key='prompt', placeholder='Ask about demand, routes, forecasts, or recommendations')
+        submit = st.form_submit_button('Ask assistant')
+
+    if submit and question.strip():
+        response = answer_question(question, bundle)
+        st.session_state.messages.append({'role': 'user', 'content': question})
+        st.session_state.messages.append({'role': 'assistant', 'content': response.body})
+        if response.table is not None and not response.table.empty:
+            st.session_state.messages.append({'role': 'assistant', 'content': response.table.to_string(index=False)})
+        st.rerun()
 
 
 if __name__ == '__main__':
